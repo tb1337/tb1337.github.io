@@ -63,7 +63,7 @@ author:
   bio    : "Nerd aus Berlin, lebt in Kirchhain, arbeitet in Mannheim. Smart Home Enthusiast. 한국을 사랑해."
   links:
     - label: "Website"
-      icon: "fas fa-fw fa-link"
+      icon: "fab fa-fw fa-link"
       url: "https://www.tbsch.de"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -78,16 +78,16 @@ author:
 footer:
   links:
     - label: "Website"
-      icon: "fas fa-fw fa-link"
+      icon: "fab fa-fw fa-link"
       url: "/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/tb1337"
     - label: "Impressum"
-      icon: ""
+      icon: "fab fa-fw fa-address-card"
       url: "/impressum/"
     - label: "Datenschutz"
-      icon: ""
+      icon: "fab fa-fw fa-shield-halved"
       url: "/datenschutz/"
 
 defaults:
