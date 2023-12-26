@@ -13,6 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+
+locale: de-DE
 title: Tobias Schulz
 email: info@tbsch.de
 description: >- # this means to ignore newlines until "baseurl:"
@@ -77,10 +79,16 @@ footer:
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://www.tbsch.de"
+      url: "/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/tb1337"
+    - label: "Impressum"
+      icon: ""
+      url: "/impressum/"
+    - label: "Datenschutz"
+      icon: ""
+      url: "/datenschutz/"
 
 defaults:
   # _posts
@@ -90,8 +98,9 @@ defaults:
     values:
       layout: single
       author_profile: true
+      show_date: false
       read_time: true
-      comments: true
+      comments: false
       share: true
       related: true
   # _pages
