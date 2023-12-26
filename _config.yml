@@ -59,7 +59,7 @@ plugins:
 
 author:
   name   : "Tobias Schulz"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/bio-photo.png"
   bio    : "Nerd aus Berlin, lebt in Kirchhain, arbeitet in Mannheim. Smart Home Enthusiast. 한국을 사랑해."
   links:
     - label: "Website"
