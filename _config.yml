@@ -58,35 +58,29 @@ plugins:
 author:
   name   : "Tobias Schulz"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Bilderbuch-Nerd aus Berlin, lebt in Kirchhain, arbeitet in Mannheim. Smart Home Enthusiast. 한국을 사랑해."
+  bio    : "Nerd aus Berlin, lebt in Kirchhain, arbeitet in Mannheim. Smart Home Enthusiast. 한국을 사랑해."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://www.tbsch.de"
-    # - label: "Twitter"
-    #   icon: "fab fa-fw fa-twitter-square"
-    #   url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/tb1337"
-    # - label: "Instagram"
-    #   icon: "fab fa-fw fa-instagram"
-    #   url: "https://instagram.com/"
+    - label: "Xing"
+      icon: "fab fa-fw fa-xing"
+      url: "https://www.xing.com/profile/Tobias_Schulz112/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/tobias-schulz-523a4b256/"
 
 footer:
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://www.tbsch.de"
-    # - label: "Twitter"
-    #   icon: "fab fa-fw fa-twitter-square"
-    #   url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/tb1337"
-    # - label: "Instagram"
-    #   icon: "fab fa-fw fa-instagram"
-    #   url: "https://instagram.com/"
 
 defaults:
   # _posts
