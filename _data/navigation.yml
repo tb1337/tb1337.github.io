@@ -1,9 +1,9 @@
 main:
+  - title: "Über mich"
+    url: /me/
   - title: "Beiträge"
     url: /artikel/
   - title: "Themen"
     url: /themen/
   - title: "Tags"
     url: /tags/
-  - title: "Über mich"
-    url: /me/

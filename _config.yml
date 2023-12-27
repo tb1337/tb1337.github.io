@@ -39,6 +39,11 @@ google_site_verification: Aw1yhgJtSZ9mw08v8WNelRl6GZZolghtRHrQY5VrHpw
 include:
   - _pages
 
+after_footer_scripts:
+  - /static/js/vendor/three.min.js
+  - /static/js/vendor/vanta.cells.js
+  - /static/js/home.js
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
@@ -87,10 +92,10 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/tb1337"
     - label: "Impressum"
-      icon: "fab fa-fw fa-address-card"
+      icon: "fas fa-fw fa-address-card"
       url: "/impressum/"
     - label: "Datenschutz"
-      icon: "fab fa-fw fa-shield-halved"
+      icon: "fas fa-fw fa-shield-halved"
       url: "/datenschutz/"
 
 defaults:
