@@ -14,7 +14,7 @@ feature_row:
   - image_path: /assets/images/project-pypaperless.png
     alt: "PyPaperless"
     title: "PyPaperless"
-    excerpt: "Python3 API Client zum Lesen und Manipulieren von Daten in deiner Paperless-ngx Installation."
+    excerpt: "Python3 REST API Client zum Customizen deiner Paperless-ngx Installation."
     url: "https://github.com/tb1337/paperless-api"
     btn_class: "btn--primary"
     btn_label: "Mehr erfahren"
