@@ -9,8 +9,22 @@ header:
     - label: "<i class='fas fa-download'></i> Install now"
       url: "/docs/quick-start-guide/"
 excerpt: >
-  Smart Home Enthusiast. Python Developer. 100% digitale DNA.<br />
-  <small><a href="https://github.com/tb1337">Besuch mich auf GitHub</a></small>
+  Smart Home Enthusiast. Python Liebhaber. 100% digitale DNA.
+feature_row:
+  - image_path: /assets/images/project-pypaperless.png
+    alt: "PyPaperless"
+    title: "PyPaperless"
+    excerpt: "Python3 API Client zum Lesen und Manipulieren von Daten in deiner Paperless-ngx Installation."
+    url: "https://github.com/tb1337/paperless-api"
+    btn_class: "btn--primary"
+    btn_label: "Mehr erfahren"
+  - image_path: /assets/images/project-hass-paperless.png
+    alt: "HA Paperless"
+    title: "HA Paperless"
+    excerpt: "Home Assistant Integration von Paperless-ngx mit Sensoren, Events und mehr."
+    url: ""
+    btn_class: "btn--primary"
+    btn_label: "Dazu bald mehr!"
 ---
 
-Hier kommt noch was hin.
+{% include feature_row %}

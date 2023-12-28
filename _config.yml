@@ -96,7 +96,7 @@ footer:
       icon: "fas fa-fw fa-address-card"
       url: "/impressum/"
     - label: "Datenschutz"
-      icon: "fas fa-fw fa-shield-halved"
+      icon: "fas fa-fw fa-user-secret"
       url: "/datenschutz/"
 
 defaults:
