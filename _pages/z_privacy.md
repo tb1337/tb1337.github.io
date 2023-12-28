@@ -1,6 +1,8 @@
 ---
 permalink: /datenschutz/
 title: "Datenschutzerklärung"
+author_profile: false
+last_modified_at: 2023-12-26T06:49:00+01:00
 ---
 
 <p>Wie wir mit Ihren personenbezogenen Daten umgehen, erläutern wir Ihnen in dieser Datenschutzerklärung. Maßgabe ist das geltende Datenschutzrecht, insbesondere die Datenschutz-Grundverordnung (DSGVO). Mit Ausnahme der Dienstleister und Drittanbieter, die wir in dieser Datenschutzerklärung benennen, geben wir keine Daten an Dritte weiter. Wenn Sie Fragen haben, sprechen Sie uns gerne an.</p><h2>Inhalt</h2><ul>  <li class="first">    <a href="#verantwortlicher">Verantwortlicher</a>  </li>  <li>    <a href="#allgemeine-informationen">Allgemeine Informationen</a>  </li>  <li>    <a href="#webseitenhosting">Webseitenhosting</a>  </li>  <li>    <a href="#cookies-zaehlpixel-und-mobile-identifier">Cookies, Zählpixel und Mobile Identifier</a>  </li>  <li>    <a href="#kontaktaufnahme">Kontaktaufnahme</a>  </li>  <li>    <a href="#affiliate-links">Affiliate-Links</a>  </li>  <li>    <a href="#weitere-drittdienste">Weitere Drittdienste</a>  </li>  <li class="last">    <a href="#rechte-betroffener-personen">Rechte betroffener Personen</a>  </li></ul><h2 id="verantwortlicher">Verantwortlicher</h2><p>Verantwortlich für die Datenverarbeitung ist</p>
