@@ -16,7 +16,7 @@
 
 locale: de
 title: Tobias Schulz
-subtitle: Nerd aus Berlin|Mannheim|Kirchhain
+subtitle: Nerd, Enthusiast, Developer
 email: info@tbsch.de
 description: >- # this means to ignore newlines until "baseurl:"
   Persönliche Website von Tobias Schulz.
@@ -69,7 +69,7 @@ plugins:
 author:
   name   : "Tobias Schulz"
   avatar : "/assets/images/bio-photo.png"
-  bio    : "Nerd aus Berlin, lebt in Kirchhain, arbeitet in Mannheim. Smart Home Enthusiast. 한국을 사랑해."
+  bio    : "Noch so ein Nerd. Python Liebhaber. Smart Home Enthusiast. Digitalisierungs- und Automatisierungs-Experte. Lebt in Kirchhain, arbeitet in Mannheim. 한국을 사랑해."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
