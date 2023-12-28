@@ -1,5 +1,9 @@
 ---
 title: "Meine Website ist umgezogen!"
+header:
+  image: /assets/images/posts/2023-12-26-header.jpg
+  caption: "Foto von <a href="https://unsplash.com/de/@freiburgermax?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Max Langelott</a> auf <a href="https://unsplash.com/de/fotos/silhouette-von-kranwagen-d3_cFMe97Ec?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>"
+  
 categories:
   - Website
 tags:

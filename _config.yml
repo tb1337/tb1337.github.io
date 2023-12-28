@@ -69,7 +69,7 @@ plugins:
 author:
   name   : "Tobias Schulz"
   avatar : "/assets/images/bio-photo.png"
-  bio    : "Noch so ein Nerd. Python Liebhaber. Smart Home Enthusiast. Digitalisierungs- und Automatisierungs-Experte. Lebt in Kirchhain, arbeitet in Mannheim. 한국을 사랑해."
+  bio    : "Noch so ein Nerd. Python Liebhaber. Smart Home Enthusiast. Digital Native. Lebt in Kirchhain, arbeitet in Mannheim. 한국을 사랑해."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
