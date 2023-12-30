@@ -9,3 +9,11 @@ main:
   #   url: /themen/
   # - title: "Tags"
   #   url: /tags/
+
+guides:
+  - title: "Papierloses Büro"
+    children:
+      - title: "Einführung"
+        url: /guides/paperless/einfuehrung/
+      - title: "Setup"
+        url: /guides/paperless/setup/

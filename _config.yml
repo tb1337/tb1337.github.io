@@ -89,7 +89,7 @@ footer:
       url: "/datenschutz/"
 
 collections:
-  howtos:
+  guides:
     output: true
     permalink: /:collection/:path/
 
@@ -113,6 +113,14 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _guides
+  - scope:
+      path: ""
+      type: guides
+    values:
+      layout: single
+      author_profile: true
+      share: true
 
 category_archive:
   type: liquid
