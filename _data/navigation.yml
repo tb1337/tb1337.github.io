@@ -3,7 +3,7 @@ main:
     url: /me/
   - title: "Beiträge"
     url: /artikel/
-  - title: "Themen"
-    url: /themen/
+  # - title: "Themen"
+  #   url: /themen/
   - title: "Tags"
     url: /tags/
