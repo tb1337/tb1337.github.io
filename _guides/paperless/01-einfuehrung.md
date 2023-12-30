@@ -1,7 +1,7 @@
 ---
 title: "Einführung: das papierlose Büro"
 excerpt: "Ein Leitfaden, wie man sein Leben papierlos und smart organisieren kann."
-permalink: /guides/paperless/einfuehrung/
+permalink: /guides/paperless/
 header:
   image: /assets/images/posts/2024-01-01-header.jpg
   caption: >
@@ -18,7 +18,9 @@ Nacheinander probierte ich verschiedene Lösungsansätze aus und entwickelte so 
 
 ### Ablage nach Datum
 
-Da ich mich 2016 noch nicht mit privaten DMS `Document Management System` auskannte bzw. mir mein Use-Case noch nicht bewusst war, entwickelte ich ein einfacheres Ablagesystem in meinen Ordnern. Hierbei heftete ich jedes Dokument einfach nach Datum ab und beschriftete die Ordner mit Zeiträumen.
+Da ich mich 2016 noch nicht mit privaten DMS[^1] auskannte bzw. mir mein Use-Case noch nicht bewusst war, entwickelte ich ein einfacheres Ablagesystem in meinen Ordnern. Hierbei heftete ich jedes Dokument einfach nach Datum ab und beschriftete die Ordner mit Zeiträumen.
+
+[^1]: Document Management System, [Wikipedia](https://de.wikipedia.org/wiki/Dokumentenmanagement)
 
 Mann, kam ich mir clever vor. :sunglasses: Bis der Tag kam, an ich einen bestimmten Brief von der Krankenkasse gesucht habe. Natürlich wusste ich nicht mehr, wann genau ich ihn erhalten hatte: ich blätterte also jeden Ordner durch, bis ich den Brief schließlich gefunden hatte.
 
