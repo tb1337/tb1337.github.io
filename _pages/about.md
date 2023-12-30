@@ -1,7 +1,7 @@
 ---
 permalink: /me/
 title: "Über mich"
-last_modified_at: 2023-12-28T14:09:00+01:00
+last_modified_at: 2023-12-30T08:54:00+01:00
 ---
 
 ## Time to say good hi
@@ -14,13 +14,11 @@ Die digitale Welt löste schon immer sehr viel Faszination in mir aus, da ich in
 
 Da liegt es auch nahe, dass es genau das ist, was ich beruflich mache. Mit wenigen Worten zusammengefasst: ich mache mein Unternehmen `digitaler` und `effizienter` - einfach `smarter`. Ich bin in der Finanz- und Versicherungsbranche tätig, die digitale Transformation ist hier in vollem Gange.
 
-## Und privat so?
+## Auch in der Freizeit smart
 
-Ich bin ein großer Smart Home Enthusiast und habe mir erfolgreich zum Ziel gesetzt, damit durch clevere Sensorik und Automatisierungen mindestens 30% Strom- und Heizkosten einzusparen - das gelingt mir mit [Home Assistant](https://www.home-assistant.io).
+Ich bin ein großer Smart Home Enthusiast und habe mir damit erfolgreich zum Ziel gesetzt, durch clevere Sensorik und Automatisierungen mindestens 30% Strom- und Heizkosten einzusparen - das gelingt mir mit [Home Assistant](https://www.home-assistant.io).
 
-Eine große Abneigung hege ich gegenüber Bargeld und Papierkram.
-
-* Seit 2009 verzichte ich auf den Einsatz von Bargeld wann immer mir das möglich ist; damals war das eine Herausforderung, heute gelingt das bis auf sehr wenige Ausnahmen durchweg. Natürlich habe ich auch kein Portemonnaie mehr.
-* In meinem Büro herrscht seit 2018 größtenteils Papierfreiheit. Es existiert genau ein Leitz-Ordner mit Dokumenten, zu deren Aufbewahrung ich verpflichtet bin. Alles andere ist durchweg digitalisiert und paperless. Es kam bereits vor, dass ich einen Dienstleister gewechselt habe, weil er mir Post geschickt hat. Obwohl eine Mail ausgereicht hätte. :grin:
+* Seit 2009 verzichte ich auf den Einsatz von Bargeld.
+* In meinem Büro herrscht seit 2018 größtenteils Papierfreiheit.
 
 Außerdem mag ich Zeit mit meinen Liebsten zu verbringen, Reisen, Korea 한국 :kr: und leckeres Essen.
