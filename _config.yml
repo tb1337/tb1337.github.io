@@ -45,18 +45,6 @@ after_footer_scripts:
   - /static/js/vendor/vanta.cells.js
   - /static/js/home.js
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
 # Plugins (previously gems:)
 plugins:
   - jekyll-paginate
@@ -67,9 +55,10 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Tobias Schulz"
-  avatar : "/assets/images/bio-photo.png"
-  bio    : "Noch so ein Nerd. Python Liebhaber. Smart Home Enthusiast. Digital Native. Lebt in Kirchhain, arbeitet in Mannheim. 한국을 사랑해."
+  name: "Tobias Schulz"
+  avatar: "/assets/images/bio-photo.png"
+  bio: "Noch so ein Nerd. Python Liebhaber. Smart Home Enthusiast. Digital Native. Lebt in Kirchhain, arbeitet in Mannheim. 한국을 사랑해."
+  location: "Deutschland"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -98,6 +87,11 @@ footer:
     - label: "Datenschutz"
       icon: "fas fa-fw fa-user-secret"
       url: "/datenschutz/"
+
+collections:
+  howtos:
+    output: true
+    permalink: /:collection/:path/
 
 defaults:
   # _posts

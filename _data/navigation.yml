@@ -3,7 +3,9 @@ main:
     url: /me/
   - title: "Beiträge"
     url: /artikel/
+  - title: "Leitfäden"
+    url: /howto/paperless/papierloses-buero/
   # - title: "Themen"
   #   url: /themen/
-  - title: "Tags"
-    url: /tags/
+  # - title: "Tags"
+  #   url: /tags/
