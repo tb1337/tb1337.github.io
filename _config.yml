@@ -121,6 +121,8 @@ defaults:
       layout: single
       author_profile: true
       share: true
+      sidebar:
+        nav: "guides"
 
 category_archive:
   type: liquid

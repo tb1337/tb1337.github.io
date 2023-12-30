@@ -4,7 +4,7 @@ main:
   - title: "Beiträge"
     url: /artikel/
   - title: "Leitfäden"
-    url: /howto/paperless/papierloses-buero/
+    url: /guides/
   # - title: "Themen"
   #   url: /themen/
   # - title: "Tags"
