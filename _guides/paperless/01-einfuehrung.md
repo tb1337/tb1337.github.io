@@ -24,7 +24,7 @@ Mann, kam ich mir clever vor. :sunglasses: Bis der Tag kam, an ich einen bestimm
 
 ### Erste Gehversuche: ecoDMS
 
-Über meinen Freund Ben habe ich von [ecoDMS](https://www.ecodms.de/de/) erfahren. Das DMS besteht aus einem **Server**, der die Dokumente erkennt, klassifiziert und speichert, sowie einem **Client**. Über diesen kann man dann Dokumente suchen, mit Metainformationen versehen und einfach damit arbeiten. Cool - da ich einen Server zuhause stehen hatte, passte das wie die Faust aufs Auge für mich und meine Dokumente wären immer verfügbar für mich.
+Über meinen Freund Ben habe ich von [ecoDMS](https://www.ecodms.de/de/) erfahren. Das DMS besteht aus einem **Server**, der die Dokumente erkennt, klassifiziert und speichert, sowie einem **Client**. Über diesen kann man dann Dokumente suchen, mit Metainformationen versehen und einfach damit arbeiten. Cool - da ich einen Server zuhause stehen hatte, passte das wie die Faust aufs Auge und meine Dokumente wären immer verfügbar für mich.
 
 Man steckt bei *ecoDMS* sehr viel Zeit in die Konfiguration, überlegt sich Strukturen, Dokumenttypen, Datenfelder, etc. Außerdem musste man der Erkennungssoftware beibringen, *wie* Dokumente klassifiziert werden sollen. Über einen praktischen Editor konnte man Bereiche auf einem Dokument auswählen, in denen bspw. immer eine Kundennummer auftauchte. Wahnsinn :grin:!
 
@@ -37,3 +37,5 @@ Anfang 2021 dann der große, medienwirksame Newcomer: [paperless-ng](https://git
 Als im August 2021 das **Aus** von *paperless-ng* verkündet wurde, machte sich bei mir Enttäuschung breit. Ich hatte schließlich mein *ecoDMS* damit abgelöst. Im März 2022 dann die Kehrtwende: ich war offensichtlich nicht der einzige Fan von *paperless-ng*. Das Projekte wurde geforkt und ging an den Start als:
 
 **[paperless-ngx](https://github.com/paperless-ngx/paperless-ngx)**
+
+Jeder hat seine Präferenzen, ich favorisiere ganz klar den digitalen Weg: wenig bis gar kein Papier im Aktenschrank. Das passt einfach zu meinem Lifestyle. Auf den folgenden Seiten gehe ich näher auf meine Vorgehensweise mit *paperless-ngx* ein, die sich komplett mühelos in den Alltag integrieren lässt.
