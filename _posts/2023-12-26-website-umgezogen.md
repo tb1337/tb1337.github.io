@@ -6,6 +6,8 @@ header:
     Foto von <a href="https://unsplash.com/de/@freiburgermax?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Max Langelott</a> auf <a href="https://unsplash.com/de/fotos/silhouette-von-kranwagen-d3_cFMe97Ec?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 tags:
   - news
+categories:
+  - website
 last_modified_at: 2023-12-30T08:42:00+01:00
 ---
 
