@@ -89,7 +89,7 @@ footer:
       url: "/datenschutz/"
 
 collections:
-  guides:
+  paperless:
     output: true
     permalink: /:collection/:path/
 
@@ -113,7 +113,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _guides
+  # _paperless
   - scope:
       path: ""
       type: paperless
