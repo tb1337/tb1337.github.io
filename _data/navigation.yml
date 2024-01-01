@@ -14,6 +14,8 @@ paperless:
   - title: "Papierloses Büro"
     children:
       - title: "Einführung"
-        url: /guides/paperless/einfuehrung/
+        url: /paperless/einfuehrung/
       - title: "Setup"
-        url: /guides/paperless/setup/
+        url: /paperless/setup/
+      - title: "Das System"
+        url: /paperless/system/
