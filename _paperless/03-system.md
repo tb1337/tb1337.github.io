@@ -1,7 +1,7 @@
 ---
 title: "Das System"
 excerpt: "Ein Leitfaden, wie man sein Leben papierlos und smart organisieren kann."
-permalink: /guides/paperless/system/
+permalink: /paperless/system/
 header:
   image: /assets/images/paperless/03-header.jpg
   caption: >

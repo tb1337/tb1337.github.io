@@ -1,7 +1,7 @@
 ---
 title: "Das Setup"
 excerpt: "Ein Leitfaden, wie man sein Leben papierlos und smart organisieren kann."
-permalink: /guides/paperless/setup/
+permalink: /paperless/setup/
 toc: true
 toc_sticky: true
 ---
