@@ -116,13 +116,13 @@ defaults:
   # _guides
   - scope:
       path: ""
-      type: guides
+      type: paperless
     values:
       layout: single
       author_profile: true
       share: true
       sidebar:
-        nav: "guides"
+        nav: "paperless"
 
 category_archive:
   type: liquid

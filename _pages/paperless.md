@@ -1,8 +1,8 @@
 ---
 title: Leitfäden
 layout: collection
-permalink: /guides/
-collection: guides
+permalink: /paperless/
+collection: paperless
 entries_layout: grid
 classes: wide
 ---
