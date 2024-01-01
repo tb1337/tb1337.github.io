@@ -1,5 +1,5 @@
 ---
-title: "Einführung: das papierlose Büro"
+title: "Einführung"
 excerpt: "Ein Leitfaden, wie man sein Leben papierlos und smart organisieren kann."
 permalink: /paperless/einfuehrung/
 header:

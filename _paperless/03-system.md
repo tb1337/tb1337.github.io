@@ -1,5 +1,5 @@
 ---
-title: "Das System"
+title: "System"
 excerpt: "Ein Leitfaden, wie man sein Leben papierlos und smart organisieren kann."
 permalink: /paperless/system/
 header:

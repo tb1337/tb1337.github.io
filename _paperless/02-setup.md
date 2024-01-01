@@ -1,5 +1,5 @@
 ---
-title: "Das Setup"
+title: "Setup"
 excerpt: "Ein Leitfaden, wie man sein Leben papierlos und smart organisieren kann."
 permalink: /paperless/setup/
 toc: true
