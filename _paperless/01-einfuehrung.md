@@ -1,7 +1,7 @@
 ---
 title: "Einführung: das papierlose Büro"
 excerpt: "Ein Leitfaden, wie man sein Leben papierlos und smart organisieren kann."
-permalink: /guides/paperless/
+permalink: /guides/paperless/einfuehrung/
 header:
   image: /assets/images/posts/2024-01-01-header.jpg
   caption: >

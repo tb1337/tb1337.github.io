@@ -3,17 +3,17 @@ main:
     url: /me/
   - title: "Beiträge"
     url: /artikel/
-  - title: "Leitfäden"
-    url: /guides/
+  - title: "Paperless"
+    url: /paperless/
   # - title: "Themen"
   #   url: /themen/
   # - title: "Tags"
   #   url: /tags/
 
-guides:
+paperless:
   - title: "Papierloses Büro"
     children:
       - title: "Einführung"
-        url: /guides/paperless/
+        url: /guides/paperless/einfuehrung/
       - title: "Setup"
         url: /guides/paperless/setup/

@@ -108,4 +108,8 @@ Alle Optionen sind detailliert [hier](https://docs.paperless-ngx.com/configurati
 
 [^5]: Traefik ist ein Reverse Proxy, [traefik.io](https://doc.traefik.io/traefik/)
 
-## Inbetriebnahme
+## Fazit
+
+Es gibt viele Details, über die man seine *paperless-ngx*-Installation für den persönlichen Gebrauch optimieren kann. Das hängt immer sehr vom eigenen Use-Case, aber auch der eingesetzten Technik ab.
+
+Auf die oben angesprochenen Custom Scripts gehe ich im weiteren Verlauf detaillierter ein. Das ist ein extrem mächtiges Tool, womit sich allerhand Schandtaten realisieren lassen :grin:. Stichwort: eigene Regelwerke, Validierung und Nachhalten dieser.
