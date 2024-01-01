@@ -1,5 +1,5 @@
 ---
-title: Leitfäden
+title: Papierloses Büro
 layout: collection
 permalink: /paperless/
 collection: paperless
