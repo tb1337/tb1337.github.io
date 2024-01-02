@@ -144,3 +144,9 @@ Wichtig | Extrem wichtige Dokumente, die ich schnell wiederfinden muss, wenn ich
 [![Bild: Speicherpfade]({{ site.url }}{{ site.baseurl }}/assets/images/paperless/03-storage-paths.png)]({{ site.url }}{{ site.baseurl }}/assets/images/paperless/03-storage-paths.png)
 
 Ich nutze zwar die physischen Dateiordner nicht, Speicherpfade stellen für mich allerdings ein zusätzliches Klassifizierungsmerkmal dar. So existiert nicht nur für jedes meiner Autos ein echter Dateiordner mit allen Dokumenten drin, meine Bots[^3] wissen hierdurch sogar, um welches Auto es sich handelt. So spare ich mir für jedes Auto einen eigenen Tag anzulegen, denn viele Speicherpfade sind aus meiner Sicht weniger störend, als viele Tags.
+
+### Zusammenfassung & Erkennungs-Algorithmen
+
+Die Klassifizierung ist der Prozess, bei dem man Dokumenten jeweils Korrespondenten, Dokumenttyp, Tags und ggf. einen Speicherpfad zuweist. Das muss man glücklicherweise nicht jedes Mal komplett per Hand machen, *paperless-ngx* wird mit einigen Erkennungsalgorithmen ausgeliefert. Darüber kannst du [hier](https://docs.paperless-ngx.com/advanced_usage/#matching) mehr lesen. Falls die automatische Erkennung nicht zum gewünschten Ergebnis führt, kann man natürlich selbst den korrekten Wert einstellen. Im Falle der Auto-Erkennung lernt *paperless-ngx* dann von deiner Entscheidung und macht es mit ein bisschen Glück direkt beim nächsten Mal richtig.
+
+Ich nutze die **Auto-Erkennung**, wann immer ich bei einem Klassifizierungsmerkmal genügend Dokumente erwarte; ein Model muss schließlich mit genug Daten trainiert werden.
