@@ -70,8 +70,7 @@ Anders verhält es sich mit **Antwort 3**: hier stecke ich sehr viel Zeit in die
 
 Aus diesen Gründen halte ich **Antwort 2** für den effizientesten Weg. Die Sendung wird in ihre zwei Rechnungen A + B aufgegleist und die Anlage zur Rechnung B gepackt. So entstehen in *paperless-ngx* zwei Dokumente mit ihrer jeweils korrekten Klassifizierung. Darüber hinaus ist die Anlage immer direkt mit ihrer Rechnung zusammen auffindbar. Und falls ich einmal nur nach der Anlage suchen muss, kann ich mir sicher sein, dass mich niemand nach der *Rechnungsanlage von Datum XY*, sondern immer nach einer Anlage im Kontext einer bestimmten Rechnung fragen wird.
 
-{% raw %}![Bild: Dokumenten-Ansicht](/assets/images/paperless/03-documents.png)
-{: .full}{% endraw %}
+![Bild: Dokumenten-Ansicht](/assets/images/paperless/03-documents.png)
 
 **Info:** Nach all der Theorie wirst du dich bei genauem Hinsehen nun fragen, warum auf dem Bild Rechnungen und Einzelverbindungsnachewise voneinander getrennt sind. Ich halte einen EVN schlichtweg nicht für eine Rechnungsanlage[^2], sondern ein für sich allein stehendes Dokument. Aus der Rechnung ergibt sich für mich auch ohne einen EVN eine Aufgabe: nämlich der Akt der Bezahlung eben dieser.
 {:  .notice--info}
