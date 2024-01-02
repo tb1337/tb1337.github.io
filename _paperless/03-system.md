@@ -55,7 +55,7 @@ Nehmen wir einen praktischen Fall: dich erreicht **ein** Brief :envelope:. Entha
 Wie du siehst, nimmt das Thema schnell ungeahnte Komplexität an. Was wäre für dich in diesem Beispiel denn nun **ein** Dokument? Aus meiner Sicht gibt es zu dieser Fragestellung erstmal mehrere Antwortmöglichkeiten:
 
 1. Da alle Seiten in einem Brief verpackt waren, handelt es sich um **ein** Dokument (= Sendung).
-2. Hier liegen **zwei** Dokumente vor, *eine* Rechnung A und **eine** weitere Rechnung B nebst Anlage.
+2. Hier liegen **zwei** Dokumente vor, **eine** Rechnung A und **eine** weitere Rechnung B nebst Anlage.
 3. Es handelt sich um **drei** Dokumente, **zwei** Rechnungen A + B und **eine** Anlage.
 
 Alle drei Möglichkeiten sind gangbare Wege, soviel sei dazu gesagt. Jede Person definiert ihr eigenes Ablagesystem und muss es natürlich so strukturieren, dass sie selbst im Bedarfsfall die korrekten Dokumente wiederfinden kann. Ich persönlich halte allerdings **Antwort 2** für die effizienteste Vorgehensweise und setze dies auch selbst so um. Doch warum?
@@ -70,10 +70,9 @@ Anders verhält es sich mit **Antwort 3**: hier stecke ich sehr viel Zeit in die
 
 Aus diesen Gründen halte ich **Antwort 2** für den effizientesten Weg. Die Sendung wird in ihre zwei Rechnungen A + B aufgegleist und die Anlage zur Rechnung B gepackt. So entstehen in *paperless-ngx* zwei Dokumente mit ihrer jeweils korrekten Klassifizierung. Darüber hinaus ist die Anlage immer direkt mit ihrer Rechnung zusammen auffindbar. Und falls ich einmal nur nach der Anlage suchen muss, kann ich mir sicher sein, dass mich niemand nach der *Rechnungsanlage von Datum XY*, sondern immer nach einer Anlage im Kontext einer bestimmten Rechnung fragen wird.
 
-{% raw %}![Bild: Dokumenten-Ansicht](/assets/images/paperless/03-documents.png)
-{: .full}{% endraw %}
+![Bild: Dokumenten-Ansicht](/assets/images/paperless/03-documents.png)
 
-**Info:** Nach all der Theorie werdet ihr euch bei genauem Hinsehen nun fragen, warum auf dem Bild Rechnungen und Einzelverbindungsnachewise voneinander getrennt sind. Ich halte einen EVN schlichtweg nicht für eine Rechnungsanlage[^2], sondern ein für sich allein stehendes Dokument. Aus der Rechnung ergibt sich für mich auch ohne einen EVN eine Aufgabe: nämlich der Akt der Bezahlung eben dieser.
+**Info:** Nach all der Theorie wirst du dich bei genauem Hinsehen nun fragen, warum auf dem Bild Rechnungen und Einzelverbindungsnachewise voneinander getrennt sind. Ich halte einen EVN schlichtweg nicht für eine Rechnungsanlage[^2], sondern ein für sich allein stehendes Dokument. Aus der Rechnung ergibt sich für mich auch ohne einen EVN eine Aufgabe: nämlich der Akt der Bezahlung eben dieser.
 {:  .notice--info}
 
 [^2]: Hierüber kann man streiten, ich änderte zu dem Thema auch selbst andauernd meine Meinung. Letztendlich habe ich mich aber festgelegt und behalte es so bei.
@@ -84,13 +83,13 @@ Hast du andere Erfahrungen gemacht? Lass es mich wissen :grin:.
 
 Unter Korrespondenten versteht man den Absender von Dokumenten, die dich erreichen. In der anderen Richtung sind Korrespondenten die Empfänger von Dokumenten, die du verschickst.
 
-In *paperless-ngx* können wir uns Korrespondenten als virtuelle Schubladen vorstellen, in denen alle Dokumente einer Person oder Firma abgelegt sind. So können wir uns mit nur einem Klick alle Dokumente eines Korrespondenten anzeigen lassen.
+In *paperless-ngx* können wir uns Korrespondenten als virtuelle Schubladen vorstellen, in denen alle Dokumente einer Person oder Firma abgelegt sind. Mit nur einem Klick finden wir alle Dokumente, die einem bestimmten Korrespondenten zugeordnet sind.
 
 ### Dokumenttyp
 
-Mit dem Dokumenttyp legt man fest, um was für eine Art Dokument es sich handelt. Hier kann man beliebig granular werden, doch Simplizität schlägt aus meiner Sicht Komplexität. Die Klassifizierung von Dokumenten zu einem Dokumenttyp erfolgt nach Regeln, die wir uns selbst ausdenken und auferlegen müssen. Es sollte uns also auf einen Blick klar sein, was für ein Dokument vor uns liegt und welcher Dokumenttyp das sein könnte.
+Mit dem Dokumenttyp legst du fest, um was für eine Art Dokument es sich handelt. Hier kann man beliebig granular werden, doch Simplizität schlägt aus meiner Sicht Komplexität. Die Klassifizierung von Dokumenten zu einem Dokumenttyp erfolgt nach Regeln, die wir uns selbst ausdenken und auferlegen müssen. Es sollte uns also auf einen Blick klar sein, was für ein Dokument vor uns liegt und welcher Dokumenttyp das sein könnte.
 
-**Warnung:** Ertappst du dich selbst dabei, wie du immer wieder zwischen meheren Dokumenttypen schwankst, gebe ich dir einen guten Rat: konsolidiere sie. Wenn selbst du dir als Mensch unsicher bist, wie soll dann *paperless-ngx* den korrekten Dokumenttyp automatisiert für dich erkennen?
+**Warnung:** Ertappst du dich selbst dabei, wie du immer wieder zwischen mehreren Dokumenttypen schwankst, gebe ich dir einen guten Rat: konsolidiere sie. Wenn selbst du dir als Mensch unsicher bist, wie soll dann *paperless-ngx* den korrekten Dokumenttyp automatisiert für dich erkennen?
 {:  .notice--warning}
 
 Sehen wir uns alle Dokumente an, die wir im Laufe der Zeit erhalten, kristallisieren sich ein paar Dokumenttypen deutlich heraus.
@@ -102,7 +101,7 @@ Dokumenttyp | Beschreibung
 Bescheid | Bescheide von Behörden, z.B. Steuerbescheide, Bewilligungen, etc.
 Dokument | Abstrakter Typ für Dokumente, die keinem Typ eindeutig zuordbar sind.
 Kontoauszug | Der Name ist Programm, egal ob Girokonto, ETF-Sparplan, Depot.
-Korrespondenz | Allgemeine Schriftwechsel, auf die eine Antwort folgen soll, z.B. Beschwerde beim Internetanbieter.
+Korrespondenz | Allgemeine Schriftwechsel, auf die eine Antwort folgen soll, z.B. Beschwerde beim Internetanbieter.
 Kündigung | Kündigungen und Kündigungsbestätigungen von Verträgen aller Art.
 Lohnabrechnung | Hiermit werden alle monatlichen Lohnzettel klassifiziert.
 LSt-Bescheinigung | Lohnsteuerbescheinigungen kommen in der Regel 1x im Jahr, sind aber wichtig genug für einen eigenen Typ.
@@ -120,7 +119,7 @@ Zeugnis | Dokumenttyp für Schul-, Ausbildungs- und Arbeitszeugnisse.
 
 Die einen lieben sie, die anderen hassen sie, und die übrigen 80% nutzen sie nicht: Tags. Auch ich selbst habe mich lange vor dem Einsatz von Tags gesträubt, weil es Dingen eine Komplexität verleihen kann, die schnell unüberschaubar ist. Denn zu jedem Tag gibt es eine Story: wann nutze ich ihn? Wann muss er wieder entfernt werden? Was sagt er aus? Hier sind uns überhaupt keine Grenzen gesetzt.
 
-Tagging ist prima: bei *paperless-ngx* kann man einem Dokument so einen Kontext verleihen, oder sogar mehrere. Ähnlich wie bei Korrespondenten kann man Tags wie virtuelle Schubladen verstehen, in denen Dokumente liegen. Sie eignen sich erstklassig, um Dokumenten eine Thematik zuzuweisen, die über viele Korrespondenten und Dokumenttypen verteilt ist (z.B. Kfz) - oder einfach nur als Status Indikator.
+Tagging ist prima: bei *paperless-ngx* kann man einem Dokument damit einen Kontext verleihen, oder sogar mehrere. Ähnlich wie bei Korrespondenten kann man Tags wie virtuelle Schubladen verstehen, in denen Dokumente liegen. Sie eignen sich erstklassig, um Dokumenten eine Thematik zuzuweisen, die über viele Korrespondenten und Dokumenttypen verteilt ist (z.B. Kfz) - oder einfach nur als Status Indikator.
 
 Damit es jedoch nicht zu komplex wird, beschränke ich mich auf einige wenige, dafür eindeutige Tags.
 

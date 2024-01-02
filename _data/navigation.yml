@@ -1,17 +1,17 @@
 main:
+  - title: "Paperless"
+    url: /paperless/
   - title: "Über mich"
     url: /me/
   - title: "Beiträge"
     url: /artikel/
-  - title: "Paperless"
-    url: /paperless/
   # - title: "Themen"
   #   url: /themen/
   # - title: "Tags"
   #   url: /tags/
 
 paperless:
-  - title: "Papierloses Büro"
+  - title: "paperless-ngx"
     children:
       - title: "Einführung"
         url: /paperless/einfuehrung/
@@ -19,3 +19,9 @@ paperless:
         url: /paperless/setup/
       - title: "Das System"
         url: /paperless/system/
+  - title: "Arbeitsalltag"
+    children:
+      - title: "Workflow"
+        url: /paperless/workflow/
+      - title: "Customization"
+        url: /paperless/customization/
