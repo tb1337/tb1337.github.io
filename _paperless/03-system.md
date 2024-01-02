@@ -136,3 +136,11 @@ Todo | Das sind Dokumente, mit denen ich zu einem späteren Zeitpunkt noch etwa
 Wichtig | Extrem wichtige Dokumente, die ich schnell wiederfinden muss, wenn ich sie brauche.
 
 [^3]: Mit der [PyPaperless](https://github.com/tb1337/paperless-api) Python Library habe ich kleinere Workflows erstellt, die meine Klassifizierungs-Regeln überwachen.
+
+### Speicherpfade
+
+*paperless-ngx* bietet noch eine weitere Möglichkeit, Schubladen zu erschaffen. Nicht dass wir davon nicht schon bereits einige hätten :sweat:. In diesem Fall handelt es sich um echte Ordner im Dateisystem, in denen die echten PDF-Dateien dann abgelegt werden, die du im DMS abspeicherst. Das ist natürlich ein reines Kosmetik-Feature und bietet Vorteile für Backups, oder wenn man all seine Dokumente bspw. zusätzlich bei einem Cloud-Anbieter speichern möchte.
+
+[![Bild: Speicherpfade]({{ site.url }}{{ site.baseurl }}/assets/images/paperless/03-storage-paths.png)]({{ site.url }}{{ site.baseurl }}/assets/images/paperless/03-storage-paths.png)
+
+Ich nutze zwar die physischen Dateiordner nicht, Speicherpfade stellen allerdings für mich ein zusätzliches Klassifizierungsmerkmal dar. So existiert nicht nur für jedes meiner Autos ein echter Dateiordner mit allen Dokumenten drin, meine Bots[^3] wissen hierdurch sogar, um welches Auto es sich handelt. So spare ich mir, für jedes Auto einen eigenen Tag anzulegen.
