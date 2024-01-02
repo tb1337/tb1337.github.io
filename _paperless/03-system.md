@@ -121,6 +121,8 @@ Die einen lieben sie, die anderen hassen sie, und die übrigen 80% nutzen sie ni
 
 Tagging ist prima: bei *paperless-ngx* kann man einem Dokument damit einen Kontext verleihen, oder sogar mehrere. Ähnlich wie bei Korrespondenten kann man Tags wie virtuelle Schubladen verstehen, in denen Dokumente liegen. Sie eignen sich erstklassig, um Dokumenten eine Thematik zuzuweisen, die über viele Korrespondenten und Dokumenttypen verteilt ist (z.B. Kfz) - oder einfach nur als Status Indikator.
 
+[![Bild: Tagging]({{ site.url }}{{ site.baseurl }}/assets/images/paperless/03-tagging.png)]({{ site.url }}{{ site.baseurl }}/assets/images/paperless/03-tagging.png)
+
 Damit es jedoch nicht zu komplex wird, beschränke ich mich auf einige wenige, dafür eindeutige Tags.
 
 Tag | Beschreibung
