@@ -30,15 +30,13 @@ Nun wird es sicher auch Leitz-Ordner-Profis geben, die mit Post-Its und anderen 
 
 **Und so sieht *paperless-ngx* aus, wenn man es zum ersten Mal öffnet:**
 
-{% raw %}![Bild: Paperless beim ersten Start](/assets/images/paperless/03-overview.png)
-{: .full}{% endraw %}
+![Bild: Paperless beim ersten Start](/assets/images/paperless/03-overview.png)
 
 ## Klassifizierung
 
 Das Klassifizieren von Dokumenten deutet eigentlich an, dass man einem Dokument einen Typ zuweist. Ich verstehe darunter allerdings den Gesamtprozess des Anheftens von Metainformationen an ein Dokument. Wenn ich also von Klassifizierung spreche, meine ich nicht nur das Zuweisen eines Dokumenttyps, sondern die Zuweisung aller Metainformationen an ein Dokument: Dokumenttyp, Korrespondent, Speicherpfad, Tags etc.
 
-{% raw %}![Bild: Klassifizierung von Dokumenten](/assets/images/paperless/03-classification.png)
-{: .full}{% endraw %}
+![Bild: Klassifizierung von Dokumenten](/assets/images/paperless/03-classification.png)
 
 Diese Begrifflichkeiten wirst du nun sehr oft lesen, ich möchte nun näher auf sie eingehen. Auch lohnt sich ein Blick in die offizielle [Dokumentation](https://docs.paperless-ngx.com/usage/).
 
