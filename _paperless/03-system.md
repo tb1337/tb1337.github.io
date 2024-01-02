@@ -30,13 +30,13 @@ Nun wird es sicher auch Leitz-Ordner-Profis geben, die mit Post-Its und anderen 
 
 **Und so sieht *paperless-ngx* aus, wenn man es zum ersten Mal öffnet:**
 
-![Bild: Paperless beim ersten Start](/assets/images/paperless/03-overview.png)
+[![Bild: Paperless beim ersten Start]({{ site.url }}{{ site.baseurl }}/assets/images/paperless/03-overview.png)]({{ site.url }}{{ site.baseurl }}/assets/images/paperless/03-overview.png)
 
 ## Klassifizierung
 
 Das Klassifizieren von Dokumenten deutet eigentlich an, dass man einem Dokument einen Typ zuweist. Ich verstehe darunter allerdings den Gesamtprozess des Anheftens von Metainformationen an ein Dokument. Wenn ich also von Klassifizierung spreche, meine ich nicht nur das Zuweisen eines Dokumenttyps, sondern die Zuweisung aller Metainformationen an ein Dokument: Dokumenttyp, Korrespondent, Speicherpfad, Tags etc.
 
-![Bild: Klassifizierung von Dokumenten](/assets/images/paperless/03-classification.png)
+[![Bild: Klassifizierung von Dokumenten]({{ site.url }}{{ site.baseurl }}/assets/images/paperless/03-classification.png)]({{ site.url }}{{ site.baseurl }}/assets/images/paperless/03-classification.png)
 
 Diese Begrifflichkeiten wirst du nun sehr oft lesen, ich möchte nun näher auf sie eingehen. Auch lohnt sich ein Blick in die offizielle [Dokumentation](https://docs.paperless-ngx.com/usage/).
 
@@ -68,7 +68,7 @@ Anders verhält es sich mit **Antwort 3**: hier stecke ich sehr viel Zeit in die
 
 Aus diesen Gründen halte ich **Antwort 2** für den effizientesten Weg. Die Sendung wird in ihre zwei Rechnungen A + B aufgegleist und die Anlage zur Rechnung B gepackt. So entstehen in *paperless-ngx* zwei Dokumente mit ihrer jeweils korrekten Klassifizierung. Darüber hinaus ist die Anlage immer direkt mit ihrer Rechnung zusammen auffindbar. Und falls ich einmal nur nach der Anlage suchen muss, kann ich mir sicher sein, dass mich niemand nach der *Rechnungsanlage von Datum XY*, sondern immer nach einer Anlage im Kontext einer bestimmten Rechnung fragen wird.
 
-![Bild: Dokumenten-Ansicht](/assets/images/paperless/03-documents.png)
+[![Bild: Dokumenten-Ansicht]({{ site.url }}{{ site.baseurl }}/assets/images/paperless/03-documents.png)]({{ site.url }}{{ site.baseurl }}/assets/images/paperless/03-documents.png)
 
 **Info:** Nach all der Theorie wirst du dich bei genauem Hinsehen nun fragen, warum auf dem Bild Rechnungen und Einzelverbindungsnachewise voneinander getrennt sind. Ich halte einen EVN schlichtweg nicht für eine Rechnungsanlage[^2], sondern ein für sich allein stehendes Dokument. Aus der Rechnung ergibt sich für mich auch ohne einen EVN eine Aufgabe: nämlich der Akt der Bezahlung eben dieser.
 {:  .notice--info}
@@ -80,6 +80,8 @@ Hast du andere Erfahrungen gemacht? Lass es mich wissen :grin:.
 ### Korrespondent
 
 Unter Korrespondenten versteht man den Absender von Dokumenten, die dich erreichen. In der anderen Richtung sind Korrespondenten die Empfänger von Dokumenten, die du verschickst.
+
+![Bild: Korrespondenten]({{ site.url }}{{ site.baseurl }}/assets/images/paperless/03-correspondent.png)
 
 In *paperless-ngx* können wir uns Korrespondenten als virtuelle Schubladen vorstellen, in denen alle Dokumente einer Person oder Firma abgelegt sind. Mit nur einem Klick finden wir alle Dokumente, die einem bestimmten Korrespondenten zugeordnet sind.
 
