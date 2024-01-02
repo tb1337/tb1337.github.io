@@ -143,4 +143,4 @@ Wichtig | Extrem wichtige Dokumente, die ich schnell wiederfinden muss, wenn ich
 
 [![Bild: Speicherpfade]({{ site.url }}{{ site.baseurl }}/assets/images/paperless/03-storage-paths.png)]({{ site.url }}{{ site.baseurl }}/assets/images/paperless/03-storage-paths.png)
 
-Ich nutze zwar die physischen Dateiordner nicht, Speicherpfade stellen allerdings für mich ein zusätzliches Klassifizierungsmerkmal dar. So existiert nicht nur für jedes meiner Autos ein echter Dateiordner mit allen Dokumenten drin, meine Bots[^3] wissen hierdurch sogar, um welches Auto es sich handelt. So spare ich mir, für jedes Auto einen eigenen Tag anzulegen.
+Ich nutze zwar die physischen Dateiordner nicht, Speicherpfade stellen für mich allerdings ein zusätzliches Klassifizierungsmerkmal dar. So existiert nicht nur für jedes meiner Autos ein echter Dateiordner mit allen Dokumenten drin, meine Bots[^3] wissen hierdurch sogar, um welches Auto es sich handelt. So spare ich mir für jedes Auto einen eigenen Tag anzulegen, denn viele Speicherpfade sind aus meiner Sicht weniger störend, als viele Tags.
