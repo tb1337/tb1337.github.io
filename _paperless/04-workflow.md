@@ -6,7 +6,7 @@ toc: true
 toc_sticky: true
 ---
 
-Nachdem wir auf den letzten Seiten unser gemeinsames Verständnis zum papierlosen Büro abgeglichen und geschärft haben, wird es Zeit, auf den stinknormalen Alltag zu sprechen zu kommen. Auch *paperless-ngx* wird uns nicht zu Freudensprüngen verleiten, wenn es darum geht, sich um den Papierkram zu kümmern - auch wenn ich diese Illusion gern aufrecht erhalten hätte. Der Unterschied liegt schlicht und ergreifend darin, dass die allmonatlichen *Ich mache Ablage und räume meine Leitz-Ordner auf*-Sonntage durch ein digitalisiertes Büro einfach wegfallen.
+Nachdem wir auf den letzten Seiten unser gemeinsames Verständnis zum papierlosen Büro abgeglichen und geschärft haben, wird es Zeit, auf den stinknormalen Alltag zu sprechen zu kommen. Auch *paperless-ngx* wird uns nicht zu Freudensprüngen verleiten, wenn es darum geht, sich um den Papierkram zu kümmern - auch wenn ich diese Illusion gern aufrecht erhalten hätte. Der Unterschied liegt schlicht und ergreifend darin, dass die vierteljährlichen *Ich mache Ablage und räume meine Leitz-Ordner auf*-Sonntage durch ein digitalisiertes Büro einfach wegfallen.
 
 Auch in der offiziellen [Dokumentation](https://docs.paperless-ngx.com/usage/#usage-recommended-workflow) findest du wertvolle Hinweise darauf, wie man *paperless-ngx* nutzen könnte. Du wirst feststellen, dass meine Erläuterungen in einigen Punkten damit übereinstimmen. Nicht etwa weil ich abschreibe, sondern weil die Architektur der Software uns hier einen Weg bereits vorgeebnet hat. Mit welcher Besohlung du diesen Weg gehst, kannst du dir selbst aussuchen - wie bisher auch, sprechen wir nun weiter über mein Schuhwerk.
 
@@ -20,7 +20,7 @@ Sehen wir uns einmal den typischen Ablauf mit *paperless-ngx* an, wenn uns im Al
 
 [^1]: Archive Serial Number, bzw. eindeutige Seriennummer eines Dokuments in deinem Haushalt. Idealerweise fortlaufend.
 
-Dieses Thema spielt bereits beim Scannen eine größere Rolle, weshalb ich kurz an dieser Stelle darauf eingehen möchte. 
+Dieses Thema spielt bereits beim Scannen eine größere Rolle, weshalb ich an dieser Stelle kurz darauf eingehen möchte. 
 
 **Anm. d. Red.:** Barcodes und ASN sind komplett optional. Du musst das nicht benutzen, wenn du nicht möchtest. Es kann die Handhabung deines papierlosen Büros in einigen Situationen jedoch vereinfachen, weshalb es sich auf jeden Fall lohnt, einen Blick auf das Feature zu werfen.
 {:  .notice--primary}
@@ -47,17 +47,16 @@ Das System bietet sehr charmante Suchmöglichkeiten nach Dokumenten mit ASN, und
 
 ### Scannen
 
-Wie über dem Schaubild erwähnt, erreichen uns Dokumente mittlerweile über alle möglichen Kanäle. Ich präferiere natürlich den digitalen Weg, denn z.B. ein Email-Anhang oder App-Download ist blitzschnell an *paperless-ngx* übergeben. Hierfür musst du nicht einmal das Handy aus der Hand legen. Aus diesem Grund achte ich auch bei Vertragsabschluss mit Serviceanbietern darauf, dass diese schon selbst digital unterwegs sind. Eine monatliche Rechnung für den Internetanschluss per Post ist für mich ein absolutes Tabu. Das hat auch weniger politische Gründe, es passt schlichtweg nicht zu meinem Lifestyle.
+Wie über dem Schaubild am Anfang dieser Seite erwähnt, erreichen uns Dokumente mittlerweile über alle möglichen Kanäle. Ich präferiere natürlich den digitalen Weg, denn z.B. ein Email-Anhang oder App-Download ist blitzschnell an *paperless-ngx* übergeben. Hierfür musst du nicht einmal das Handy aus der Hand legen. Aus diesem Grund achte ich auch bei Vertragsabschluss mit Serviceanbietern darauf, dass diese schon selbst digital unterwegs sind. Eine monatliche Rechnung für den Internetanschluss per Post ist für mich ein absolutes Tabu. Das hat auch weniger politisch-motivierte grüne Gründe, es passt schlichtweg nicht zu meinem Lifestyle.
 
-Gerade bei Behörden erfreut sich der Postweg allerdings nach wie vor größter Beliebtheit. In solchen Fällen musst du nach dem Öffnen des Briefs deinen Scanner bemühen. Hier empfiehlt sich ebenfalls das Smartphone, denn es gibt eine richtig gute Scanner-App in den App Stores.
+Gerade bei Behörden erfreut sich der Postweg allerdings nach wie vor größter Beliebtheit. In solchen Fällen musst du nach dem Öffnen des Briefs deinen Scanner bemühen. Hier empfiehlt sich ebenfalls das Smartphone, denn es gibt eine richtig gute Scanner-App in den App Stores: **[Genius Scan](https://thegrizzlylabs.com/genius-scan/)**.
 
-**Genius Scan**: https://thegrizzlylabs.com/genius-scan/
-
-**Info**: 2018 gab es die App als Einmalkauf für 8,99 EUR, heute bietet sie nur noch ein monatliches Abo an. Du benötigst das Abo nicht zwingend, denn in erster Linie willst du Dokumente scannen. Im Abo enthalten ist ein automatischer Export, auch möglich in Richtung *paperless-ngx*; als iPhone User bist du allerdings mit Shortcuts[^2] gesegnet: nutze sie :sunglasses:. Dazu später mehr.
+**Info**: 2018 gab es die App als Einmalkauf für 8,99 EUR, heute bietet sie nur noch ein monatliches Abo an. Du benötigst das Abo nicht zwingend, denn in erster Linie willst du Dokumente scannen. Im Abo enthalten ist ein automatischer Export, auch möglich in Richtung *paperless-ngx*. Als iPhone User bist du allerdings mit Shortcuts[^2] gesegnet: nutze sie :sunglasses:. Dazu später mehr.
 {:  .notice--info}
 
 [^2]: Die Kurzbefehle-App auf iPhones, iPad und Macs von Apple.
 
 ### Konsumieren
 
-*paperless-ngx* bietet 
+Die größte und umfangreichste Komponente von *paperless-ngx* ist vermutlich der <u>Document Consumer</u>, er ist Herz und Gehirn des ganzen DMS. Und das geht auch gar nicht anders, denn er stellt sämtliche Funktionalitäten zur Dokumentenverarbeitung, OCR, Fehlerbehandlung, Erkennung von Metainformationen, automatischer Klassifizierung und letztlich auch Archivierung bereit.
+
