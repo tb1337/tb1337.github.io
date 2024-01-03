@@ -1,6 +1,6 @@
 ---
 title: "Setup"
-excerpt: "Ein Leitfaden, wie man sein Leben papierlos und smart organisieren kann."
+excerpt: "Zeit für den digitalen Wandel: ein neues papierloses Büro aufsetzen."
 permalink: /paperless/setup/
 toc: true
 toc_sticky: true

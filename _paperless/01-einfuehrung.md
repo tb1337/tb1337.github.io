@@ -1,6 +1,6 @@
 ---
 title: "Einführung"
-excerpt: "Ein Leitfaden, wie man sein Leben papierlos und smart organisieren kann."
+excerpt: "Kurzer Abstecher zu den alltäglichen Herausforderungen mit der Papier-Ablage."
 permalink: /paperless/einfuehrung/
 header:
   image: /assets/images/paperless/01-header.jpg

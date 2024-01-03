@@ -17,11 +17,13 @@ paperless:
         url: /paperless/einfuehrung/
       - title: "Setup"
         url: /paperless/setup/
-      - title: "Das System"
-        url: /paperless/system/
+      - title: "Klassifizierung"
+        url: /paperless/klassifizierung/
   - title: "Arbeitsalltag"
     children:
       - title: "Workflow"
         url: /paperless/workflow/
       - title: "Customization"
         url: /paperless/customization/
+      - title: "Papierlos mit iPhone"
+        url: /paperless/iphone/
