@@ -29,7 +29,7 @@ de: &DEFAULT_DE
   related_label              : "Ihnen gefällt vielleicht auch"
   follow_label               : 
   feed_label                 : "Feed"
-  powered_by                 : "Möglich durch"
+  powered_by                 : 
   website_label              : "Webseite"
   email_label                : "E-Mail"
   recent_posts               : "Aktuelle Beiträge"
