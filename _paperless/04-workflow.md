@@ -12,9 +12,38 @@ Auch in der offiziellen [Dokumentation](https://docs.paperless-ngx.com/usage/#us
 
 ## Arbeitsablauf
 
-Sehen wir uns einmal den typischen Ablauf mit *paperless-ngx* an, wenn uns im Alltag neue Dokumente erreichen. Hierbei spielt es im Übrigen überhaupt keine Rolle, auf welchem Wege sie das tun; sei es per Post, per Email, als Download aus einer App, oder per Fa... nein, das blöde Wort mit x am Ende ist keine Erwähnung wert :grin:.
+Sehen wir uns einmal den typischen Ablauf mit *paperless-ngx* an, wenn uns im Alltag neue Dokumente erreichen. Hierbei spielt es im Übrigen überhaupt keine Rolle, auf welchem Wege sie das tun; sei es per Post, per Email, als Download aus einer App, oder per Fa... nein, das blöde Wort mit x am Ende ist keine Erwähnung wert :clown_face:.
 
-![Bild: Ablaufdiagramm](/assets/images/paperless/04-workflow.png)
+[![Bild: Ablaufdiagramm]({{ site.url }}{{ site.baseurl }}/assets/images/paperless/04-workflow.png)]({{ site.url }}{{ site.baseurl }}/assets/images/paperless/04-workflow.png)
+
+### Barcodes und ASN[^1]
+
+[^1]: Archive Serial Number, bzw. eindeutige Seriennummer eines Dokuments in deinem Haushalt. Idealerweise fortlaufend.
+
+Dieses Thema spielt bereits beim Scannen eine größere Rolle, weshalb ich kurz an dieser Stelle darauf eingehen möchte. 
+
+**Anm. d. Red.:** Barcodes und ASN sind komplett optional. Du musst das nicht benutzen, wenn du nicht möchtest. Es kann die Handhabung deines papierlosen Büros in einigen Situationen jedoch vereinfachen, weshalb es sich auf jeden Fall lohnt, einen Blick auf das Feature zu werfen.
+{:  .notice--primary}
+
+#### Grundsätzliches zu Barcodes
+
+*paperless-ngx* kommt mit einem eingebauten Barcode-Scanner, welcher zwei tolle Funktionen bereitstellt:
+
+1. **Splitting**: solltest du viele Dokumente auf einem Stapel haben und diesen auf einmal einscannen, können anhand von Trennblättern mit Barcode die einzelnen Dokumente erkannt werden.
+2. **ASN Erkennung**: Barcodes oder QR Codes können eine ASN[^1] kodiert bekommen, welche von *paperless-ngx* erkannt und an das Dokument angefügt wird.
+
+#### Warum ich mit ASN arbeite
+
+*paperless-ngx* und Leitz-Ordner koexistieren in meinem papierlosen Büro, auch wenn das auf den ersten Blick ein Widerspruch ist. Ich <u>arbeite</u> nur mit den digitalen Abbildern meiner Dokumente, d.h. ich suche und finde sie im DMS, setze Todo-Tags und behalte meinen Posteingang im Blick. Im Leitz-Ordner <u>lagern</u> die Originale, die ich aufbewahren muss oder will. Den fasse ich ansonsten nur an, um weitere Dokumente einzulagern. Dieser Fakt macht für mich den eindeutigen Unterschied.
+
+ASN sind ein kleiner Helfer, um mich bei meinem *dualen System* zu unterstützen. Ich sehe in *paperless-ngx* auf einen Blick, dass ein Dokument als physisches Original existiert und auf den zweiten Blick, in welchem Leitz-Ordner es lagert. Sollte ich ein Original benötigen, kann ich direkt im richtigen Ordner auf die richtige Seite blättern, da die ASN mir verrät, wo im Ordner sich das Dokument befindet (oder zumindest befinden sollte :grin:). Beispiel gefällig?
+
+[![Bild: ASN]({{ site.url }}{{ site.baseurl }}/assets/images/paperless/04-asn.png)]({{ site.url }}{{ site.baseurl }}/assets/images/paperless/04-asn.png)
+
+Das System bietet sehr charmante Suchmöglichkeiten nach Dokumenten mit ASN, und zeigt diese unter dem Dokumenten-Datum gleich an. Dass ein Dokument eine ASN hat, verrät mir, dass ein Original dazu existieren muss. Die ASN selbst verrät mir, wo das Dokument abgeheftet sein muss. Meine Leitz-Ordner sind beschriftet mit dem Nummernbereich der ASNs, die sie enthalten, z.B. *1000 - 1499*. Innerhalb des Ordners sind die Dokumente nach ASN aufsteigend abgeheftet, d.h. Dokument *1499* finde ich ganz vorne, während die *1000* ganz hinten liegt. Einfach, oder?
+
+**Profi-Tipp:** Es ist nicht nur möglich, vom digitalen Abbild auf ein Original zu schließen. Die abgehefteten Dokumente beklebe ich mit einem QR Code, in den die ASN einkodiert ist. Scanne ich mit meinem iPhone diesen QR Code, öffnet sich *paperless-ngx* im Browser und zeigt mir die digitale Version des Dokuments an. Dazu später mehr.
+{:  .notice--info}
 
 ### Scannen
 
@@ -24,7 +53,11 @@ Gerade bei Behörden erfreut sich der Postweg allerdings nach wie vor größter 
 
 **Genius Scan**: https://thegrizzlylabs.com/genius-scan/
 
-**Info**: 2018 gab es die App noch als Einmalkauf für 8,99 EUR, heute bietet sie nur noch ein Abo für 2,99 EUR/mtl. an. Du benötigst das Abo nicht zwingend, denn in erster Linie willst du Dokumente scannen. Im Abo enthalten ist ein automatischer Export, auch möglich in Richtung *paperless-ngx*; als iPhone User bist du allerdings mit Shortcuts[^1] gesegnet. Dazu später mehr.
-{: .notice--info}
+**Info**: 2018 gab es die App als Einmalkauf für 8,99 EUR, heute bietet sie nur noch ein monatliches Abo an. Du benötigst das Abo nicht zwingend, denn in erster Linie willst du Dokumente scannen. Im Abo enthalten ist ein automatischer Export, auch möglich in Richtung *paperless-ngx*; als iPhone User bist du allerdings mit Shortcuts[^2] gesegnet: nutze sie :sunglasses:. Dazu später mehr.
+{:  .notice--info}
 
-[^1]: Die Kurzbefehle-App auf iPhones, iPad und Macs von Apple.
+[^2]: Die Kurzbefehle-App auf iPhones, iPad und Macs von Apple.
+
+### Konsumieren
+
+*paperless-ngx* bietet 
