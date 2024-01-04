@@ -5,22 +5,31 @@ permalink: /paperless/workflow/
 toc: true
 toc_sticky: true
 consumer_gallery:
-    - url: /assets/images/paperless/04-upload-web.png
-      image_path: /assets/images/paperless/04-upload-web.png
-      alt: "Bild: Upload-Maske"
-      title: "Upload auf der Webseite."
-    - url: /assets/images/paperless/04-upload-folder.png
-      image_path: /assets/images/paperless/04-upload-folder.png
-      alt: "Bild: Upload-Ordner"
-      title: "Upload über den *Consumption*-Ordner."
-    - url: /assets/images/paperless/04-upload-imap.png
-      image_path: /assets/images/paperless/04-upload-imap.png
-      alt: "Bild: Abholen per IMAP (Email)"
-      title: "Automatisch Abholen per IMAP (Email)."
-    - url: /assets/images/paperless/04-upload-rest.png
-      image_path: /assets/images/paperless/04-upload-rest.png
-      alt: "Bild: Upload per REST API"
-      title: "Upload über REST API mit eigenem Programmcode."
+  - url: /assets/images/paperless/04-upload-web.png
+    image_path: /assets/images/paperless/04-upload-web.png
+    alt: "Bild: Upload-Maske"
+    title: "Upload auf der Webseite."
+  - url: /assets/images/paperless/04-upload-folder.png
+    image_path: /assets/images/paperless/04-upload-folder.png
+    alt: "Bild: Upload-Ordner"
+    title: "Upload über den *Consumption*-Ordner."
+  - url: /assets/images/paperless/04-upload-imap.png
+    image_path: /assets/images/paperless/04-upload-imap.png
+    alt: "Bild: Abholen per IMAP (Email)"
+    title: "Automatisch Abholen per IMAP (Email)."
+  - url: /assets/images/paperless/04-upload-rest.png
+    image_path: /assets/images/paperless/04-upload-rest.png
+    alt: "Bild: Upload per REST API"
+    title: "Upload über REST API mit eigenem Programmcode."
+sharesheet_gallery:
+  - url: /assets/images/paperless/04-share-ios.png
+    image_path: /assets/images/paperless/04-share-ios.png
+    alt: "Bild: Dokument teilen mit iPhone"
+    title: "Ein Dokument mit dem iPhone teilen."
+  - url: /assets/images/paperless/04-share-mac.png
+    image_path: /assets/images/paperless/04-share-mac.png
+    alt: "Bild: Dokument teilen mit Mac"
+    title: "Ein Dokument mit dem Mac teilen."
 ---
 
 Nachdem wir auf den letzten Seiten unser gemeinsames Verständnis zum papierlosen Büro abgeglichen und geschärft haben, wird es Zeit, auf den stinknormalen Alltag zu sprechen zu kommen. Auch *paperless-ngx* wird uns nicht zu Freudensprüngen verleiten, wenn es darum geht, sich um den Papierkram zu kümmern - auch wenn ich diese Illusion gern aufrecht erhalten hätte. Der Unterschied liegt schlicht und ergreifend darin, dass die vierteljährlichen *Ich mache Ablage und räume meine Leitz-Ordner auf*-Sonntage durch ein digitalisiertes Büro einfach wegfallen.
@@ -86,3 +95,7 @@ Deine Aufgabe als Eigentümer eines papierlosen Büros ist es, den *Document Con
 [^4]: Ich habe in der Einführung von Problemen mit *paperless-ng* geschrieben, [siehe hier](/paperless/einfuehrung/#die-lösung-paperless-ngx)
 
 {% include gallery id="consumer_gallery" layout="half" caption="Ein paar der Möglichkeiten, Dokumente in *paperless-ngx* bereitzustellen." %}
+
+Die meisten Anwender werden vermutlich auf den Einsatz der REST API verzichten, ich persönlich stelle jedes Dokument darüber bereit. Das liegt daran, dass ich alles mit dem iPhone oder am Mac erledige: vom Scannen bis zum Teilen mit *paperless-ngx* über das Share Sheet:
+
+{% include gallery id="sharesheet_gallery" layout="half" caption="Dokumente über Apple Geräte mit *paperless-ngx* teilen." %}
