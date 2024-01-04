@@ -4,6 +4,23 @@ excerpt: "Briefe, Faxe, Emails und digitale Dokumente im Alltag meistern."
 permalink: /paperless/workflow/
 toc: true
 toc_sticky: true
+consumer_gallery:
+    - url: /assets/images/paperless/04-upload-web.png
+      image_path: /assets/images/paperless/04-upload-web.png
+      alt: "Bild: Upload-Maske"
+      title: "Upload auf der Webseite."
+    - url: /assets/images/paperless/04-upload-folder.png
+      image_path: /assets/images/paperless/04-upload-folder.png
+      alt: "Bild: Upload-Ordner"
+      title: "Upload über den *Consumption*-Ordner."
+    - url: /assets/images/paperless/04-upload-imap.png
+      image_path: /assets/images/paperless/04-upload-imap.png
+      alt: "Bild: Abholen per IMAP (Email)"
+      title: "Automatisch Abholen per IMAP (Email)."
+    - url: /assets/images/paperless/04-upload-rest.png
+      image_path: /assets/images/paperless/04-upload-rest.png
+      alt: "Bild: Upload per REST API"
+      title: "Upload über REST API mit eigenem Programmcode."
 ---
 
 Nachdem wir auf den letzten Seiten unser gemeinsames Verständnis zum papierlosen Büro abgeglichen und geschärft haben, wird es Zeit, auf den stinknormalen Alltag zu sprechen zu kommen. Auch *paperless-ngx* wird uns nicht zu Freudensprüngen verleiten, wenn es darum geht, sich um den Papierkram zu kümmern - auch wenn ich diese Illusion gern aufrecht erhalten hätte. Der Unterschied liegt schlicht und ergreifend darin, dass die vierteljährlichen *Ich mache Ablage und räume meine Leitz-Ordner auf*-Sonntage durch ein digitalisiertes Büro einfach wegfallen.
@@ -14,7 +31,7 @@ Auch in der offiziellen [Dokumentation](https://docs.paperless-ngx.com/usage/#us
 
 Sehen wir uns einmal den typischen Ablauf mit *paperless-ngx* an, wenn uns im Alltag neue Dokumente erreichen. Hierbei spielt es im Übrigen überhaupt keine Rolle, auf welchem Wege sie das tun; sei es per Post, per Email, als Download aus einer App, oder per Fa... nein, das blöde Wort mit x am Ende ist keine Erwähnung wert :clown_face:.
 
-[![Bild: Ablaufdiagramm]({{ site.url }}{{ site.baseurl }}/assets/images/paperless/04-workflow.png)]({{ site.url }}{{ site.baseurl }}/assets/images/paperless/04-workflow.png)
+[![Bild: Ablaufdiagramm](/assets/images/paperless/04-workflow.png)](/assets/images/paperless/04-workflow.png)
 
 ### Barcodes und ASN[^1]
 
@@ -36,11 +53,11 @@ Dieses Thema spielt bereits beim Scannen eine größere Rolle, weshalb ich an di
 
 #### Warum ich mit ASN arbeite
 
-*paperless-ngx* und Leitz-Ordner koexistieren in meinem papierlosen Büro, auch wenn das auf den ersten Blick ein Widerspruch ist. Ich <u>arbeite</u> nur mit den digitalen Abbildern meiner Dokumente, d.h. ich suche und finde sie im DMS, setze Todo-Tags und behalte meinen Posteingang im Blick. Im Leitz-Ordner <u>lagern</u> die Originale, die ich aufbewahren muss oder will. Den fasse ich ansonsten nur an, um weitere Dokumente einzulagern. Dieser Fakt macht für mich den eindeutigen Unterschied.
+*paperless-ngx* und Leitz-Ordner koexistieren in meinem papierlosen Büro, auch wenn das auf den ersten Blick ein Widerspruch ist. Ich <u>arbeite</u> nur mit den digitalen Abbildern meiner Dokumente, d.h. ich suche und finde sie im DMS, setze Todo-Tags und behalte meinen Posteingang im Blick. Im Leitz-Ordner <u>lagern</u> die Originale, die ich aufbewahren muss oder will. Den fasse ich ansonsten nur an, um weitere Dokumente einzulagern. Der Großteil der mich erreichenden Post wird nach dem Einscannen vernichtet. Diese Fakten machen für mich den eindeutigen Unterschied.
 
 ASN sind ein kleiner Helfer, um mich bei meinem *dualen System* zu unterstützen. Ich sehe in *paperless-ngx* auf einen Blick, dass ein Dokument als physisches Original existiert und auf den zweiten Blick, in welchem Leitz-Ordner es lagert. Sollte ich ein Original benötigen, kann ich direkt im richtigen Ordner auf die richtige Seite blättern, da die ASN mir verrät, wo im Ordner sich das Dokument befindet (oder zumindest befinden sollte :grin:). Beispiel gefällig?
 
-[![Bild: ASN]({{ site.url }}{{ site.baseurl }}/assets/images/paperless/04-asn.png)]({{ site.url }}{{ site.baseurl }}/assets/images/paperless/04-asn.png)
+[![Bild: ASN](/assets/images/paperless/04-asn.png)](/assets/images/paperless/04-asn.png)
 
 Das System bietet sehr charmante Suchmöglichkeiten nach Dokumenten mit ASN, und zeigt diese unter dem Dokumenten-Datum gleich an. Dass ein Dokument eine ASN hat, verrät mir, dass ein Original dazu existieren muss. Die ASN selbst verrät mir, wo das Dokument abgeheftet sein muss. Meine Leitz-Ordner sind beschriftet mit dem Nummernbereich der ASNs, die sie enthalten, z.B. *1000 - 1499*. Innerhalb des Ordners sind die Dokumente nach ASN aufsteigend abgeheftet, d.h. Dokument *1499* finde ich ganz vorne, während die *1000* ganz hinten liegt. Einfach, oder?
 
@@ -60,5 +77,12 @@ Gerade bei Behörden erfreut sich der Postweg allerdings nach wie vor größter 
 
 ### Konsumieren
 
-Die größte und umfangreichste Komponente von *paperless-ngx* ist vermutlich der <u>Document Consumer</u>, er ist Herz und Gehirn des ganzen DMS. Und das geht auch gar nicht anders, denn er stellt sämtliche Funktionalitäten zur Dokumentenverarbeitung, OCR, Fehlerbehandlung, Erkennung von Metainformationen, automatischer Klassifizierung und letztlich auch Archivierung bereit.
+Die größte und umfangreichste Komponente von *paperless-ngx* ist vermutlich der <u>Document Consumer</u>, er ist Herz und Gehirn des ganzen DMS. Und das geht auch gar nicht anders, denn er stellt sämtliche Funktionalitäten zur Dokumentenverarbeitung, OCR[^3], Fehlerbehandlung, Erkennung von Metainformationen, automatischer Klassifizierung und letztlich auch Archivierung bereit.
 
+[^3]: Optische Texterkennung, [Wikipedia](https://de.wikipedia.org/wiki/Texterkennung)
+
+Deine Aufgabe als Eigentümer eines papierlosen Büros ist es, den *Document Consumer* mit Dokumenten zu füttern. Hierfür werden Uploadmaske auf der Webseite, eine REST API, Abholen per IMAP (Email) aus deinem Emailkonto, ein spezieller Upload-Dateiordner und verschiedene Mobile Apps angeboten. Die Apps kann ich persönlich jedoch nicht empfehlen, da man sich hier von weiteren Drittanbietern abhängig macht. Das sind private Projekte und man läuft jederzeit Gefahr, dass sie nicht mehr weiterentwickelt werden - dieser Gefahr sehen wir uns bereits beim Einsatz von *paperless-ngx* ausgesetzt[^4]. Falls du dir diese Projekte doch einmal ansehen möchtest, folge [diesem Link](https://github.com/paperless-ngx/paperless-ngx/wiki/Affiliated-Projects).
+
+[^4]: Ich habe in der Einführung von Problemen mit *paperless-ng* geschrieben, [siehe hier](/paperless/einfuehrung/#die-lösung-paperless-ngx)
+
+{% include gallery id="consumer_gallery" layout="half" caption="Diese Möglichkeiten stehen bereit." %}

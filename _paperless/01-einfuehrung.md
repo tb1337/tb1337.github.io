@@ -41,3 +41,5 @@ Als im August 2021 das **Aus** von *paperless-ng* verkündet wurde, machte sich 
 **[paperless-ngx](https://github.com/paperless-ngx/paperless-ngx)**
 
 Jeder hat seine Präferenzen, ich favorisiere ganz klar den digitalen Weg: wenig bis gar kein Papier im Aktenschrank. Das passt einfach zu meinem Lifestyle. Auf den folgenden Seiten gehe ich näher auf meine Vorgehensweise mit *paperless-ngx* ein, die sich komplett mühelos in den Alltag integrieren lässt.
+
+[test](/paperless/einfuehrung/#die-lösung-paperless-ngx)
