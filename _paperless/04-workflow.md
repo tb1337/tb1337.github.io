@@ -128,6 +128,11 @@ Die meisten Anwender werden vermutlich auf den Einsatz der REST API verzichten, 
 
 ### Klassifizieren
 
-Nachdem dein Dokument konsumiert wurde, findest du es im Posteingang wieder. Hierbei handelt es sich nicht um einen klassischen Ordner, sondern eine dieser *virtuellen Schubladen*, von denen ich [hier](/paperless/klassifizierung/#tagging) häufig geschrieben habe. Damit das funktioniert, musst du einen Tag lediglich als *Posteingangs-Tag* konfigurieren. Nun kannst du das Dokument klassifizieren bzw. dir die Ergebnisse der automatischen Klassifizierung ansehen.
+Nachdem dein Dokument konsumiert wurde, findest du es im Posteingang wieder. Hierbei handelt es sich nicht um einen klassischen Ordner, sondern eine dieser *virtuellen Schubladen*, von denen ich [hier](/paperless/klassifizierung/#tagging) berichtet hatte. Damit das funktioniert, musst du einen Tag lediglich als *Posteingangs-Tag* konfigurieren. Nun kannst du das Dokument klassifizieren bzw. dir die Ergebnisse der automatischen Klassifizierung ansehen.
 
 ![Bild: Klassifizierung von Dokumenten](/assets/images/paperless/03-classification.png)
+
+Bereits ohne große Konfiguration meiner Entwickler-Installation und mit einem Test-Dokument, welches wirklich kaum verwertbares Material liefert, hat der *Document Consumer* diverse Informationen extrahieren können. Aus dem Email-Header hat er z.B. das korrekte Datum ausgelesen, der <u>Dateiname des konsumierten Dokuments</u> wurde als Titel hinterlegt und der *Posteingangs-Tag* wurde angeheftet.
+
+**Info:** Ich habe <u>Dateiname des konsumierten Dokuments</u> im vorherigen Absatz absichtlich unterstrichen, da wir an dieser Stelle beachten müssen, dass ich diese Email nicht per Emailkonto-Abruf konsumieren lassen habe. Ich habe die Email in der Druckansicht geöffnet, ein PDF erzeugt und in den *Consumption Ordner* geworfen. Deshalb wurde der Dateiname als Titel des Dokuments gewählt, nicht der Email-Betreff.
+{:  .notice--info}
