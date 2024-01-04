@@ -81,8 +81,8 @@ Die größte und umfangreichste Komponente von *paperless-ngx* ist vermutlich de
 
 [^3]: Optische Texterkennung, [Wikipedia](https://de.wikipedia.org/wiki/Texterkennung)
 
-Deine Aufgabe als Eigentümer eines papierlosen Büros ist es, den *Document Consumer* mit Dokumenten zu füttern. Hierfür werden Uploadmaske auf der Webseite, eine REST API, Abholen per IMAP (Email) aus deinem Emailkonto, ein spezieller Upload-Dateiordner und verschiedene Mobile Apps angeboten. Die Apps kann ich persönlich jedoch nicht empfehlen, da man sich hier von weiteren Drittanbietern abhängig macht. Das sind private Projekte und man läuft jederzeit Gefahr, dass sie nicht mehr weiterentwickelt werden - dieser Gefahr sehen wir uns bereits beim Einsatz von *paperless-ngx* ausgesetzt[^4]. Falls du dir diese Projekte doch einmal ansehen möchtest, folge [diesem Link](https://github.com/paperless-ngx/paperless-ngx/wiki/Affiliated-Projects).
+Deine Aufgabe als Eigentümer eines papierlosen Büros ist es, den *Document Consumer* mit Dokumenten zu füttern. Hierfür werden Uploadmaske auf der Webseite, eine REST API, Abholen per IMAP (Email) aus deinem Emailkonto, ein spezieller Upload-Dateiordner und verschiedene Mobile Apps angeboten. Die Apps kann ich persönlich jedoch nicht empfehlen, da man sich hier von weiteren Drittanbietern abhängig macht. Das sind private Projekte und man läuft jederzeit Gefahr, dass sie nicht mehr weiterentwickelt werden - dieser Gefahr sehen wir uns bereits beim Einsatz von *paperless-ngx* ausgesetzt[^4]. Falls du dir diese Projekte ansehen möchtest, folge [diesem Link](https://github.com/paperless-ngx/paperless-ngx/wiki/Affiliated-Projects).
 
 [^4]: Ich habe in der Einführung von Problemen mit *paperless-ng* geschrieben, [siehe hier](/paperless/einfuehrung/#die-lösung-paperless-ngx)
 
-{% include gallery id="consumer_gallery" layout="half" caption="Diese Möglichkeiten stehen bereit." %}
+{% include gallery id="consumer_gallery" layout="half" caption="Ein paar der Möglichkeiten, Dokumente in *paperless-ngx* bereitzustellen." %}
