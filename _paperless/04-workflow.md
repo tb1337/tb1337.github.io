@@ -22,8 +22,8 @@ consumer_gallery:
     alt: "Bild: Upload per REST API"
     title: "Upload über REST API mit eigenem Programmcode."
 sharesheet_gallery:
-  - url: /assets/images/paperless/04-share-ios.png
-    image_path: /assets/images/paperless/04-share-ios.png
+  - url: /assets/images/paperless/04-share-iphone.png
+    image_path: /assets/images/paperless/04-share-iphone.png
     alt: "Bild: Dokument teilen mit iPhone"
     title: "Ein Dokument mit dem iPhone teilen."
   - url: /assets/images/paperless/04-share-mac.png
@@ -100,7 +100,7 @@ Deine Aufgabe als Eigentümer eines papierlosen Büros ist es, den *Document Con
 
 Die wohl einfachste Möglichkeit ist, Dokumente direkt im *Consumption*-Ordner bereitzustellen. Dieser Ordner sollte im Netzwerk freigegeben sein, damit Anwender und Geräte darauf zugreifen können. Ein Netzwerk-Scanner könnte dann die eingescannten Seiten sogar direkt in diesem Ordner ablegen.
 
-Über ein paar Einstellungen bietet *paperless-ngx* außerdem die Möglichkeit, den *Consumption*-Ordner ein bisschen nach eigenen Vorlieben zu [konfigurieren](https://docs.paperless-ngx.com/configuration/#consume_config). In Kombination mit [Verarbeitungsvorlagen](https://docs.paperless-ngx.com/usage/#consumption-templates) können hier sehr viele persönliche Use-Cases abgebildet werden, es sind fast keine Grenzen gesetzt.
+Über ein paar Einstellungen bietet *paperless-ngx* außerdem die Möglichkeit, den *Consumption*-Ordner ein bisschen nach eigenen Vorlieben zu [konfigurieren](https://docs.paperless-ngx.com/configuration/#consume_config). In Kombination mit [Verarbeitungsvorlagen](https://docs.paperless-ngx.com/usage/#consumption-templates) können hierdurch sehr viele persönliche Use-Cases abgebildet werden, es sind fast keine Grenzen gesetzt.
 
 #### Fortgeschrittene: IMAP (Email)
 
@@ -108,7 +108,7 @@ Weiterhin besteht die Möglichkeit, das eigene Email-Konto völlig automatisiert
 
 Meine persönliche Erfahrung ist, dass ich schlichtweg zu wenige Dokumente direkt als Email oder im Anhang erhalte. In den letzten zwei Jahren haben viele meiner Vertragspartner auf App Downloads umgestellt und sehen von einer direkten Übermittlung per Email ab. Aus diesem Grund ist das IMAP Feature für mich persönlich uninteressant geworden, davon abgesehen, dass ich ohnehin nur extrem ungern Zugriff auf mein iCloud-Konto gewähre.
 
-**Achtung:** Du musst deine Login-Daten zum Emailkonto in *paperless-ngx* hinterlegen und setzt es dadurch einem potenziellen Sicherheitsrisiko aus! Benutzt du dein papierloses Büro übers Internet von unterwegs? Dann lass die Finger von diesem Feature, wenn du dich nicht verdammt gut mit IT Security auskennst. Außerdem musst du darauf vertrauen, dass die Urheber von *paperless-ngx* nur sichere Verfahren zur Authentifizierung am Emailkonto einsetzen.
+**Achtung:** Du musst deine Login-Daten zum Emailkonto in *paperless-ngx* hinterlegen und setzt es dadurch einem potenziellen Sicherheitsrisiko aus! Benutzt du dein papierloses Büro übers Internet von unterwegs? Dann lass die Finger von diesem Feature, wenn du dich nicht verdammt gut mit IT Security auskennst. Außerdem musst du darauf vertrauen, dass die Urheber von *paperless-ngx* ausschließlich sichere Verfahren zur Authentifizierung am Emailkonto einsetzen. Möchtest du das Risiko eingehen?
 {:  .notice--danger}
 
 #### Profis: REST API
