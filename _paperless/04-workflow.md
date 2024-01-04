@@ -96,6 +96,26 @@ Deine Aufgabe als Eigentümer eines papierlosen Büros ist es, den *Document Con
 
 {% include gallery id="consumer_gallery" layout="half" caption="Ein paar der Möglichkeiten, Dokumente in *paperless-ngx* bereitzustellen." %}
 
-Die meisten Anwender werden vermutlich auf den Einsatz der REST API verzichten, ich persönlich stelle jedes Dokument darüber bereit. Das liegt daran, dass ich alles mit dem iPhone oder am Mac erledige: vom Scannen bis zum Teilen mit *paperless-ngx* über das Share Sheet:
+#### Einsteiger: Upload-Dateiordner
+
+Die wohl einfachste Möglichkeit ist, Dokumente direkt im *Consumption*-Ordner bereitzustellen. Dieser Ordner sollte im Netzwerk freigegeben sein, damit Anwender und Geräte darauf zugreifen können. Ein Netzwerk-Scanner könnte dann die eingescannten Seiten sogar direkt in diesem Ordner ablegen.
+
+Über ein paar Einstellungen bietet *paperless-ngx* außerdem die Möglichkeit, den *Consumption*-Ordner ein bisschen nach eigenen Vorlieben zu [konfigurieren](https://docs.paperless-ngx.com/configuration/#consume_config). In Kombination mit [Verarbeitungsvorlagen](https://docs.paperless-ngx.com/usage/#consumption-templates) können hier sehr viele persönliche Use-Cases abgebildet werden, es sind fast keine Grenzen gesetzt.
+
+#### Fortgeschrittene: IMAP (Email)
+
+Weiterhin besteht die Möglichkeit, das eigene Email-Konto völlig automatisiert nach Dokumenten scannen zu lassen. Hierfür stehen spezielle Email-Regeln bereit, über die du beliebig komplexe Suchmuster festlegen kannst, um Dokumente aufzuspüren und abholen zu lassen.
+
+Meine persönliche Erfahrung ist, dass ich schlichtweg zu wenige Dokumente direkt als Email oder im Anhang erhalte. In den letzten zwei Jahren haben viele meiner Absender auf App Downloads umgestellt und sehen von einer direkten Übermittlung per Email ab. Aus diesem Grund ist das IMAP Feature für mich persönlich uninteressant geworden.
+
+**Achtung:** Du musst deine Login-Daten zum Emailkonto in *paperless-ngx* hinterlegen und setzt dein es dadurch einem potenziellen Sicherheitsrisiko aus! Benutzt du dein papierloses Büro übers Internet von unterwegs? Dann lass die Finger von diesem Feature, wenn du dich nicht verdammt gut mit IT Security auskennst. In der heutigen Zeit werden tagtäglich abertausende Email- und Bankkonten geplündert, weil Menschen zu leichtsinnig mit Sicherheit umgehen - denn ich bin zurecht der Meinung, dass der geplünderte Mensch immer selbst Schuld daran hat (Stichwort: Passwort 123456).
+{:  .notice--danger}
+
+#### Profis: REST API
+
+Die meisten Anwender werden vermutlich auf den Einsatz der REST API verzichten, ich persönlich stelle jedes Dokument darüber bereit. Das liegt daran, dass ich alles mit dem iPhone oder am Mac erledige: vom Scannen bis zum Teilen mit *paperless-ngx* über das Share Sheet. Leider kann ich nicht einschätzen, welche Möglichkeiten man hier als Android User hat, da ich zu lange von Android weg bin und mittlerweile überhaupt nicht mehr damit klarkomme. Ein paar Eindrücke gefällig?
 
 {% include gallery id="sharesheet_gallery" layout="half" caption="Dokumente über Apple Geräte mit *paperless-ngx* teilen." %}
+
+**Wichtig:** Du musst beim Thema Konsumieren den für dich praktikabelsten Weg selbst entdecken. Ich habe für mich entdeckt, dass ich die Arbeit einfach gern mit einem Gerät in der Hand erledige, welches ich eh andauernd in der Hand halte. Vielleicht ist das ja auch für dich was?
+{:  .notice--warning}
