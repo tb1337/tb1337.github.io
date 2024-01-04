@@ -30,13 +30,13 @@ Nun wird es sicher auch Leitz-Ordner-Profis geben, die mit Post-Its und anderen 
 
 **Und so sieht *paperless-ngx* aus, wenn man es zum ersten Mal öffnet:**
 
-[![Bild: Paperless beim ersten Start]({{ site.url }}{{ site.baseurl }}/assets/images/paperless/03-overview.png)]({{ site.url }}{{ site.baseurl }}/assets/images/paperless/03-overview.png)
+[![Bild: Paperless beim ersten Start](/assets/images/paperless/03-overview.png)](/assets/images/paperless/03-overview.png)
 
 ## Klassifizierung
 
 Das Klassifizieren von Dokumenten deutet eigentlich an, dass man einem Dokument einen Typ zuweist. Ich verstehe darunter allerdings den Gesamtprozess des Anheftens von Metainformationen an ein Dokument. Wenn ich also von Klassifizierung spreche, meine ich nicht nur das Zuweisen eines Dokumenttyps, sondern die Zuweisung aller Metainformationen an ein Dokument: Dokumenttyp, Korrespondent, Speicherpfad, Tags etc.
 
-[![Bild: Klassifizierung von Dokumenten]({{ site.url }}{{ site.baseurl }}/assets/images/paperless/03-classification.png)]({{ site.url }}{{ site.baseurl }}/assets/images/paperless/03-classification.png)
+[![Bild: Klassifizierung von Dokumenten](/assets/images/paperless/03-classification.png)](/assets/images/paperless/03-classification.png)
 
 Diese Begrifflichkeiten wirst du nun sehr oft lesen, ich möchte nun näher auf sie eingehen. Auch lohnt sich ein Blick in die offizielle [Dokumentation](https://docs.paperless-ngx.com/usage/).
 
@@ -68,7 +68,7 @@ Anders verhält es sich mit **Antwort 3**: hier stecke ich sehr viel Zeit in die
 
 Aus diesen Gründen halte ich **Antwort 2** für den effizientesten Weg. Die Sendung wird in ihre zwei Rechnungen A + B aufgegleist und die Anlage zur Rechnung B gepackt. So entstehen in *paperless-ngx* zwei Dokumente mit ihrer jeweils korrekten Klassifizierung. Darüber hinaus ist die Anlage immer direkt mit ihrer Rechnung zusammen auffindbar. Und falls ich einmal nur nach der Anlage suchen muss, kann ich mir sicher sein, dass mich niemand nach der *Rechnungsanlage von Datum XY*, sondern immer nach einer Anlage im Kontext einer bestimmten Rechnung fragen wird.
 
-[![Bild: Dokumenten-Ansicht]({{ site.url }}{{ site.baseurl }}/assets/images/paperless/03-documents.png)]({{ site.url }}{{ site.baseurl }}/assets/images/paperless/03-documents.png)
+[![Bild: Dokumenten-Ansicht](/assets/images/paperless/03-documents.png)](assets/images/paperless/03-documents.png)
 
 **Info:** Nach all der Theorie wirst du dich bei genauem Hinsehen nun fragen, warum auf dem Bild Rechnungen und Einzelverbindungsnachewise voneinander getrennt sind. Ich halte einen EVN schlichtweg nicht für eine Rechnungsanlage[^2], sondern ein für sich allein stehendes Dokument. Aus der Rechnung ergibt sich für mich auch ohne einen EVN eine Aufgabe: nämlich der Akt der Bezahlung eben dieser.
 {:  .notice--info}
@@ -81,7 +81,7 @@ Hast du andere Erfahrungen gemacht? Lass es mich wissen :grin:.
 
 Unter Korrespondenten versteht man den Absender von Dokumenten, die dich erreichen. In der anderen Richtung sind Korrespondenten die Empfänger von Dokumenten, die du verschickst.
 
-![Bild: Korrespondenten]({{ site.url }}{{ site.baseurl }}/assets/images/paperless/03-correspondent.png)
+![Bild: Korrespondenten](/assets/images/paperless/03-correspondent.png)
 
 In *paperless-ngx* können wir uns Korrespondenten als virtuelle Schubladen vorstellen, in denen alle Dokumente einer Person oder Firma abgelegt sind. Mit nur einem Klick finden wir alle Dokumente, die einem bestimmten Korrespondenten zugeordnet sind.
 
@@ -121,7 +121,7 @@ Die einen lieben sie, die anderen hassen sie, und die übrigen 80% nutzen sie ni
 
 Tagging ist prima: bei *paperless-ngx* kann man einem Dokument damit einen Kontext verleihen, oder sogar mehrere. Ähnlich wie bei Korrespondenten kann man Tags wie virtuelle Schubladen verstehen, in denen Dokumente liegen. Sie eignen sich erstklassig, um Dokumenten eine Thematik zuzuweisen, die über viele Korrespondenten und Dokumenttypen verteilt ist (z.B. Kfz) - oder einfach nur als Status Indikator.
 
-[![Bild: Tagging]({{ site.url }}{{ site.baseurl }}/assets/images/paperless/03-tagging.png)]({{ site.url }}{{ site.baseurl }}/assets/images/paperless/03-tagging.png)
+[![Bild: Tagging](/assets/images/paperless/03-tagging.png)](/assets/images/paperless/03-tagging.png)
 
 Damit es jedoch nicht zu komplex wird, beschränke ich mich auf einige wenige, dafür eindeutige Tags.
 
@@ -141,7 +141,7 @@ Wichtig | Extrem wichtige Dokumente, die ich schnell wiederfinden muss, wenn ich
 
 *paperless-ngx* bietet noch eine weitere Möglichkeit, Schubladen zu erschaffen. Nicht dass wir davon nicht schon bereits einige hätten :sweat:. In diesem Fall handelt es sich um echte Ordner im Dateisystem, in denen die echten PDF-Dateien dann abgelegt werden, die du im DMS abspeicherst. Das ist natürlich ein reines Kosmetik-Feature und bietet Vorteile für Backups, oder wenn man all seine Dokumente bspw. zusätzlich bei einem Cloud-Anbieter speichern möchte.
 
-[![Bild: Speicherpfade]({{ site.url }}{{ site.baseurl }}/assets/images/paperless/03-storage-paths.png)]({{ site.url }}{{ site.baseurl }}/assets/images/paperless/03-storage-paths.png)
+[![Bild: Speicherpfade](/assets/images/paperless/03-storage-paths.png)](/assets/images/paperless/03-storage-paths.png)
 
 Ich nutze zwar die physischen Dateiordner nicht, Speicherpfade stellen für mich allerdings ein zusätzliches Klassifizierungsmerkmal dar. So existiert nicht nur für jedes meiner Autos ein echter Dateiordner mit allen Dokumenten drin, meine Bots[^3] wissen hierdurch sogar, um welches Auto es sich handelt. So spare ich mir für jedes Auto einen eigenen Tag anzulegen, denn viele Speicherpfade sind aus meiner Sicht weniger störend, als viele Tags.
 
@@ -149,6 +149,6 @@ Ich nutze zwar die physischen Dateiordner nicht, Speicherpfade stellen für mich
 
 Die Klassifizierung ist der Prozess, bei dem man Dokumenten jeweils Korrespondenten, Dokumenttyp, Tags und ggf. einen Speicherpfad zuweist. Das muss man glücklicherweise nicht jedes Mal komplett per Hand machen, *paperless-ngx* wird mit einigen Erkennungsalgorithmen ausgeliefert. Darüber kannst du [hier](https://docs.paperless-ngx.com/advanced_usage/#matching) mehr lesen. Falls die automatische Erkennung nicht zum gewünschten Ergebnis führt, kann man natürlich selbst den korrekten Wert einstellen. Im Falle der Auto-Erkennung lernt *paperless-ngx* dann von deiner Entscheidung und macht es mit ein bisschen Glück direkt beim nächsten Mal richtig.
 
-[![Bild: Erkennungs-Algorithmen]({{ site.url }}{{ site.baseurl }}/assets/images/paperless/03-matching-algorithms.png)]({{ site.url }}{{ site.baseurl }}/assets/images/paperless/03-matching-algorithms.png)
+[![Bild: Erkennungs-Algorithmen](/assets/images/paperless/03-matching-algorithms.png)](/assets/images/paperless/03-matching-algorithms.png)
 
 Ich nutze die **Auto-Erkennung**, wann immer ich bei einem Klassifizierungsmerkmal genügend Dokumente erwarte; ein Model muss schließlich mit genug Daten trainiert werden. Das kann man auf dem Bild übrigens bei *Rechnungen* erkennen.

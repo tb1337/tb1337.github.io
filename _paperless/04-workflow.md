@@ -90,9 +90,7 @@ Die größte und umfangreichste Komponente von *paperless-ngx* ist vermutlich de
 
 [^3]: Optische Texterkennung, [Wikipedia](https://de.wikipedia.org/wiki/Texterkennung)
 
-Deine Aufgabe als Eigentümer eines papierlosen Büros ist es, den *Document Consumer* mit Dokumenten zu füttern. Hierfür werden Uploadmaske auf der Webseite, eine REST API, Abholen per IMAP (Email) aus deinem Emailkonto, ein spezieller Upload-Dateiordner und verschiedene Mobile Apps angeboten. Die Apps kann ich persönlich jedoch nicht empfehlen, da man sich hier von weiteren Drittanbietern abhängig macht. Das sind private Projekte und man läuft jederzeit Gefahr, dass sie nicht mehr weiterentwickelt werden - dieser Gefahr sehen wir uns bereits beim Einsatz von *paperless-ngx* ausgesetzt[^4]. Falls du dir diese Projekte ansehen möchtest, folge [diesem Link](https://github.com/paperless-ngx/paperless-ngx/wiki/Affiliated-Projects).
-
-[^4]: Ich habe in der Einführung von Problemen mit *paperless-ng* geschrieben, [siehe hier](/paperless/einfuehrung/#die-lösung-paperless-ngx)
+Deine Aufgabe als Eigentümer eines papierlosen Büros ist es, den *Document Consumer* mit Dokumenten zu füttern. Hierfür werden Uploadmaske auf der Webseite, eine REST API, Abholen per IMAP (Email) aus deinem Emailkonto, ein spezieller Upload-Dateiordner und verschiedene Mobile Apps angeboten.
 
 {% include gallery id="consumer_gallery" layout="half" caption="Ein paar der Möglichkeiten, Dokumente in *paperless-ngx* bereitzustellen." %}
 
@@ -101,6 +99,14 @@ Deine Aufgabe als Eigentümer eines papierlosen Büros ist es, den *Document Con
 Die wohl einfachste Möglichkeit ist, Dokumente direkt im *Consumption*-Ordner bereitzustellen. Dieser Ordner sollte im Netzwerk freigegeben sein, damit Anwender und Geräte darauf zugreifen können. Ein Netzwerk-Scanner könnte dann die eingescannten Seiten sogar direkt in diesem Ordner ablegen.
 
 Über ein paar Einstellungen bietet *paperless-ngx* außerdem die Möglichkeit, den *Consumption*-Ordner ein bisschen nach eigenen Vorlieben zu [konfigurieren](https://docs.paperless-ngx.com/configuration/#consume_config). In Kombination mit [Verarbeitungsvorlagen](https://docs.paperless-ngx.com/usage/#consumption-templates) können hierdurch sehr viele persönliche Use-Cases abgebildet werden, es sind fast keine Grenzen gesetzt.
+
+#### Einsteiger: Mobile Apps
+
+Darüber hinaus kannst du dir eine App aus deinem App Store installieren, mit der du Dokumente bereitstellen kannst. Bedenke dabei aber, dass du dich hier von weiteren Drittanbietern abhängig machst. Das sind private Projekte und du läufst jederzeit Gefahr, dass sie nicht mehr weiterentwickelt werden - dieser Gefahr sehen wir uns bereits beim Einsatz von *paperless-ngx* ausgesetzt[^4]. Ein weiteres Risiko ist Monetarisierung, denn plötzlich könnte dich deine geliebte App ein wenig Geld kosten, damit du sie weiterhin wie gewohnt benutzen kannst.
+
+Falls du dir diese Projekte ansehen möchtest, folge [diesem Link](https://github.com/paperless-ngx/paperless-ngx/wiki/Affiliated-Projects).
+
+[^4]: Ich habe in der Einführung von Problemen mit *paperless-ng* geschrieben, [siehe hier](/paperless/einfuehrung/#die-lösung-paperless-ngx)
 
 #### Fortgeschrittene: IMAP (Email)
 
@@ -117,5 +123,11 @@ Die meisten Anwender werden vermutlich auf den Einsatz der REST API verzichten, 
 
 {% include gallery id="sharesheet_gallery" layout="half" caption="Dokumente über Apple Geräte mit *paperless-ngx* teilen." %}
 
-**Wichtig:** Du musst beim Thema Konsumieren den für dich praktikabelsten Weg selbst entdecken. Ich habe für mich entdeckt, dass ich die Arbeit einfach gern mit einem Gerät in der Hand erledige, welches ich eh andauernd in der Hand halte. Vielleicht ist das ja auch für dich was?
+**Wichtig:** Du musst beim Thema Konsumieren den für dich praktikabelsten Weg selbst entdecken. Ich habe für mich entdeckt, dass ich die Arbeit einfach gern mit einem Gerät in der Hand erledige, welches ich eh andauernd in der Hand halte: iPhone. Vielleicht ist das ja auch für dich was?
 {:  .notice--warning}
+
+### Klassifizieren
+
+Nachdem dein Dokument konsumiert wurde, findest du es im Posteingang wieder. Hierbei handelt es sich nicht um einen klassischen Ordner, sondern eine dieser *virtuellen Schubladen*, von denen ich [hier](/paperless/klassifizierung/#tagging) häufig geschrieben habe. Damit das funktioniert, musst du einen Tag lediglich als *Posteingangs-Tag* konfigurieren. Nun kannst du das Dokument klassifizieren bzw. dir die Ergebnisse der automatischen Klassifizierung ansehen.
+
+![Bild: Klassifizierung von Dokumenten](/assets/images/paperless/03-classification.png)
