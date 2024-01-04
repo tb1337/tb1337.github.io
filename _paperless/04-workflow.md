@@ -32,6 +32,8 @@ Dieses Thema spielt bereits beim Scannen eine größere Rolle, weshalb ich an di
 1. **Splitting**: solltest du viele Dokumente auf einem Stapel haben und diesen auf einmal einscannen, können anhand von Trennblättern mit Barcode die einzelnen Dokumente erkannt werden.
 2. **ASN Erkennung**: Barcodes oder QR Codes können eine ASN[^1] kodiert bekommen, welche von *paperless-ngx* erkannt und an das Dokument angefügt wird.
 
+[Hier](https://docs.paperless-ngx.com/advanced_usage/#barcodes) kannst du etwas über das Barcode-Feature von *paperless-ngx* in der offiziellen Dokumentation nachlesen, und [hier](https://docs.paperless-ngx.com/configuration/#barcodes) alles über ihre Konfiguration.
+
 #### Warum ich mit ASN arbeite
 
 *paperless-ngx* und Leitz-Ordner koexistieren in meinem papierlosen Büro, auch wenn das auf den ersten Blick ein Widerspruch ist. Ich <u>arbeite</u> nur mit den digitalen Abbildern meiner Dokumente, d.h. ich suche und finde sie im DMS, setze Todo-Tags und behalte meinen Posteingang im Blick. Im Leitz-Ordner <u>lagern</u> die Originale, die ich aufbewahren muss oder will. Den fasse ich ansonsten nur an, um weitere Dokumente einzulagern. Dieser Fakt macht für mich den eindeutigen Unterschied.
