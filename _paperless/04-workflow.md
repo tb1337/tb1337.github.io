@@ -106,9 +106,9 @@ Die wohl einfachste Möglichkeit ist, Dokumente direkt im *Consumption*-Ordner b
 
 Weiterhin besteht die Möglichkeit, das eigene Email-Konto völlig automatisiert nach Dokumenten scannen zu lassen. Hierfür stehen spezielle Email-Regeln bereit, über die du beliebig komplexe Suchmuster festlegen kannst, um Dokumente aufzuspüren und abholen zu lassen.
 
-Meine persönliche Erfahrung ist, dass ich schlichtweg zu wenige Dokumente direkt als Email oder im Anhang erhalte. In den letzten zwei Jahren haben viele meiner Absender auf App Downloads umgestellt und sehen von einer direkten Übermittlung per Email ab. Aus diesem Grund ist das IMAP Feature für mich persönlich uninteressant geworden.
+Meine persönliche Erfahrung ist, dass ich schlichtweg zu wenige Dokumente direkt als Email oder im Anhang erhalte. In den letzten zwei Jahren haben viele meiner Vertragspartner auf App Downloads umgestellt und sehen von einer direkten Übermittlung per Email ab. Aus diesem Grund ist das IMAP Feature für mich persönlich uninteressant geworden, davon abgesehen, dass ich ohnehin nur extrem ungern Zugriff auf mein iCloud-Konto gewähre.
 
-**Achtung:** Du musst deine Login-Daten zum Emailkonto in *paperless-ngx* hinterlegen und setzt dein es dadurch einem potenziellen Sicherheitsrisiko aus! Benutzt du dein papierloses Büro übers Internet von unterwegs? Dann lass die Finger von diesem Feature, wenn du dich nicht verdammt gut mit IT Security auskennst. In der heutigen Zeit werden tagtäglich abertausende Email- und Bankkonten geplündert, weil Menschen zu leichtsinnig mit Sicherheit umgehen - denn ich bin zurecht der Meinung, dass der geplünderte Mensch immer selbst Schuld daran hat (Stichwort: Passwort 123456).
+**Achtung:** Du musst deine Login-Daten zum Emailkonto in *paperless-ngx* hinterlegen und setzt es dadurch einem potenziellen Sicherheitsrisiko aus! Benutzt du dein papierloses Büro übers Internet von unterwegs? Dann lass die Finger von diesem Feature, wenn du dich nicht verdammt gut mit IT Security auskennst. Außerdem musst du darauf vertrauen, dass die Urheber von *paperless-ngx* nur sichere Verfahren zur Authentifizierung am Emailkonto einsetzen.
 {:  .notice--danger}
 
 #### Profis: REST API
