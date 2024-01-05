@@ -1,9 +1,9 @@
 ---
 title: "Einführung"
-excerpt: "Kurzer Abstecher zu den alltäglichen Herausforderungen mit der Papier-Ablage."
+excerpt: "Kurzer Abstecher zu den alltäglichen Themen mit der Papier-Ablage."
 permalink: /paperless/einfuehrung/
 header:
-  image: /assets/images/paperless/01-header.jpg
+  image: /assets/images/paperless/header.jpg
   caption: >
     Foto von <a href="https://unsplash.com/de/@lucabravo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Luca Bravo</a> auf <a href="https://unsplash.com/de/fotos/apple-macbook-neben-computermaus-auf-tisch-9l_326FISzk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 toc: true
