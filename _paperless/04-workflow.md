@@ -156,4 +156,4 @@ Nachdem ich das Test-Dokument nun aus *Paperless-ngx* gelöscht und nochmal kons
 
 Die kontinuierliche Verbesserung der Auto-Klassifizierung sollte ein fester Bestandteil deiner regelmäßigen Arbeit mit *paperless-ngx* werden. Wenn konsumierte Dokumente nicht automtatisch so klassifiziert werden, wie du dir das vorstellst, lohnt sich auf jeden Fall ein Blick in die Einstellungen der Zuweisungsmuster. Dieser Prozess ammortisiert sich auf der Zeitachse, da du weniger Zeit in die Verbesserung deiner Auto-Klassifizierung stecken wirst, als in die manuelle Klassifizierung oder Korrektur falscher Ergebnisse. Und denk daran: immer da, wo manuell gearbeitet wird, entstehen auch Fehler :sunglasses:.
 
-Bereits beim Anlegen neuer Korrespondenten, Dokumenttypen, Tags und Speicherpfade empfiehlt es sich außerdem, sich bereits Gedanken über die Auto-Klassifizierung zu machen.
+Bereits beim Anlegen neuer Korrespondenten, Dokumenttypen, Tags und Speicherpfade empfiehlt es sich außerdem, dass du dir bereits Gedanken über die Auto-Klassifizierung machst.
