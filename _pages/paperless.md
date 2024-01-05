@@ -1,5 +1,5 @@
 ---
-title: Papierloses Büro
+title: Paperless
 layout: collection
 permalink: /paperless/
 header:
@@ -11,4 +11,4 @@ entries_layout: grid
 classes: wide
 ---
 
-Ein Leitfaden, wie man sein Leben papierlos und smart organisieren kann.
+Ein Leitfaden, wie man sein Leben annähernd papierlos und smart organisieren kann. Auf den Unterseiten nehme ich dich mit auf die Reise durch meinen vieljährigen Erfahrungsschatz mit *Paperless-ngx*, teile mit dir Tipps & Tricks und zeige auf, warum das papierlose Büro eine Bereicherung fürs Leben ist.
