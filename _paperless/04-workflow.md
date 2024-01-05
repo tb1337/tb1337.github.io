@@ -42,7 +42,7 @@ Sehen wir uns einmal den typischen Ablauf mit *paperless-ngx* an, wenn uns im Al
 
 [![Bild: Ablaufdiagramm](/assets/images/paperless/04-workflow.png)](/assets/images/paperless/04-workflow.png)
 
-### Barcodes und ASN[^1]
+## Barcodes und ASN[^1]
 
 [^1]: Archive Serial Number, bzw. eindeutige Seriennummer eines Dokuments in deinem Haushalt. Idealerweise fortlaufend.
 
@@ -51,7 +51,7 @@ Dieses Thema spielt bereits beim Scannen eine größere Rolle, weshalb ich an di
 **Anm. d. Red.:** Barcodes und ASN sind komplett optional. Du musst das nicht benutzen, wenn du nicht möchtest. Es kann die Handhabung deines papierlosen Büros in einigen Situationen jedoch vereinfachen, weshalb es sich auf jeden Fall lohnt, einen Blick auf das Feature zu werfen.
 {:  .notice--primary}
 
-#### Grundsätzliches zu Barcodes
+### Grundsätzliches zu Barcodes
 
 *paperless-ngx* kommt mit einem eingebauten Barcode-Scanner, welcher zwei tolle Funktionen bereitstellt:
 
@@ -60,7 +60,7 @@ Dieses Thema spielt bereits beim Scannen eine größere Rolle, weshalb ich an di
 
 [Hier](https://docs.paperless-ngx.com/advanced_usage/#barcodes) kannst du etwas über das Barcode-Feature von *paperless-ngx* in der offiziellen Dokumentation nachlesen, und [hier](https://docs.paperless-ngx.com/configuration/#barcodes) alles über ihre Konfiguration.
 
-#### Warum ich mit ASN arbeite
+### Warum ich mit ASN arbeite
 
 *paperless-ngx* und Leitz-Ordner koexistieren in meinem papierlosen Büro, auch wenn das auf den ersten Blick ein Widerspruch ist. Ich <u>arbeite</u> nur mit den digitalen Abbildern meiner Dokumente, d.h. ich suche und finde sie im DMS, setze Todo-Tags und behalte meinen Posteingang im Blick. Im Leitz-Ordner <u>lagern</u> die Originale, die ich aufbewahren muss oder will. Den fasse ich ansonsten nur an, um weitere Dokumente einzulagern. Der Großteil der mich erreichenden Post wird nach dem Einscannen vernichtet. Diese Fakten machen für mich den eindeutigen Unterschied.
 
@@ -73,7 +73,7 @@ Das System bietet sehr charmante Suchmöglichkeiten nach Dokumenten mit ASN, und
 **Profi-Tipp:** Es ist nicht nur möglich, vom digitalen Abbild auf ein Original zu schließen. Die abgehefteten Dokumente beklebe ich mit einem QR Code, in den die ASN einkodiert ist. Scanne ich mit meinem iPhone diesen QR Code, öffnet sich *paperless-ngx* im Browser und zeigt mir die digitale Version des Dokuments an. Dazu später mehr.
 {:  .notice--info}
 
-### Scannen
+## Scannen
 
 Wie über dem Schaubild am Anfang dieser Seite erwähnt, erreichen uns Dokumente mittlerweile über alle möglichen Kanäle. Ich präferiere natürlich den digitalen Weg, denn z.B. ein Email-Anhang oder App-Download ist blitzschnell an *paperless-ngx* übergeben. Hierfür musst du nicht einmal das Handy aus der Hand legen. Aus diesem Grund achte ich auch bei Vertragsabschluss mit Serviceanbietern darauf, dass diese schon selbst digital unterwegs sind. Eine monatliche Rechnung für den Internetanschluss per Post ist für mich ein absolutes Tabu. Das hat auch weniger politisch-motivierte grüne Gründe, es passt schlichtweg nicht zu meinem Lifestyle.
 
@@ -84,7 +84,7 @@ Gerade bei Behörden erfreut sich der Postweg allerdings nach wie vor größter 
 
 [^2]: Die Kurzbefehle-App auf iPhones, iPad und Macs von Apple.
 
-### Konsumieren
+## Konsumieren
 
 Die größte und umfangreichste Komponente von *paperless-ngx* ist vermutlich der <u>Document Consumer</u>, er ist Herz und Gehirn des ganzen DMS. Und das geht auch gar nicht anders, denn er stellt sämtliche Funktionalitäten zur Dokumentenverarbeitung, OCR[^3], Fehlerbehandlung, Erkennung von Metainformationen, automatischer Klassifizierung und letztlich auch Archivierung bereit.
 
@@ -94,13 +94,13 @@ Deine Aufgabe als Eigentümer eines papierlosen Büros ist es, den *Document Con
 
 {% include gallery id="consumer_gallery" layout="half" caption="Ein paar der Möglichkeiten, Dokumente in *paperless-ngx* bereitzustellen." %}
 
-#### Einsteiger: Upload-Dateiordner
+### Einsteiger: Upload-Dateiordner
 
 Die wohl einfachste Möglichkeit ist, Dokumente direkt im *Consumption*-Ordner bereitzustellen. Dieser Ordner sollte im Netzwerk freigegeben sein, damit Anwender und Geräte darauf zugreifen können. Ein Netzwerk-Scanner könnte dann die eingescannten Seiten sogar direkt in diesem Ordner ablegen.
 
 Über ein paar Einstellungen bietet *paperless-ngx* außerdem die Möglichkeit, den *Consumption*-Ordner ein bisschen nach eigenen Vorlieben zu [konfigurieren](https://docs.paperless-ngx.com/configuration/#consume_config). In Kombination mit [Verarbeitungsvorlagen](https://docs.paperless-ngx.com/usage/#consumption-templates) können hierdurch sehr viele persönliche Use-Cases abgebildet werden, es sind fast keine Grenzen gesetzt.
 
-#### Einsteiger: Mobile Apps
+### Einsteiger: Mobile Apps
 
 Darüber hinaus kannst du dir eine App aus deinem App Store installieren, mit der du Dokumente bereitstellen kannst. Bedenke dabei aber, dass du dich hier von weiteren Drittanbietern abhängig machst. Das sind private Projekte und du läufst jederzeit Gefahr, dass sie nicht mehr weiterentwickelt werden - dieser Gefahr sehen wir uns bereits beim Einsatz von *paperless-ngx* ausgesetzt[^4]. Ein weiteres Risiko ist Monetarisierung, denn plötzlich könnte dich deine geliebte App ein wenig Geld kosten, damit du sie weiterhin wie gewohnt benutzen kannst.
 
@@ -108,7 +108,7 @@ Falls du dir diese Projekte ansehen möchtest, folge [diesem Link](https://githu
 
 [^4]: Ich habe in der Einführung von Problemen mit *paperless-ng* geschrieben, [siehe hier](/paperless/einfuehrung/#die-lösung-paperless-ngx)
 
-#### Fortgeschrittene: IMAP (Email)
+### Fortgeschrittene: IMAP (Email)
 
 Weiterhin besteht die Möglichkeit, das eigene Email-Konto völlig automatisiert nach Dokumenten scannen zu lassen. Hierfür stehen spezielle Email-Regeln bereit, über die du beliebig komplexe Suchmuster festlegen kannst, um Dokumente aufzuspüren und abholen zu lassen.
 
@@ -117,7 +117,7 @@ Meine persönliche Erfahrung ist, dass ich schlichtweg zu wenige Dokumente direk
 **Achtung:** Du musst deine Login-Daten zum Emailkonto in *paperless-ngx* hinterlegen und setzt es dadurch einem potenziellen Sicherheitsrisiko aus! Benutzt du dein papierloses Büro übers Internet von unterwegs? Dann lass die Finger von diesem Feature, wenn du dich nicht verdammt gut mit IT Security auskennst. Außerdem musst du darauf vertrauen, dass die Urheber von *paperless-ngx* ausschließlich sichere Verfahren zur Authentifizierung am Emailkonto einsetzen. Möchtest du das Risiko eingehen?
 {:  .notice--danger}
 
-#### Profis: REST API
+### Profis: REST API
 
 Die meisten Anwender werden vermutlich auf den Einsatz der REST API verzichten, ich persönlich stelle jedes Dokument darüber bereit. Das liegt daran, dass ich alles mit dem iPhone oder am Mac erledige: vom Scannen bis zum Teilen mit *paperless-ngx* über das Share Sheet. Leider kann ich nicht einschätzen, welche Möglichkeiten man hier als Android User hat, da ich zu lange von Android weg bin und mittlerweile überhaupt nicht mehr damit klarkomme. Ein paar Eindrücke gefällig?
 
@@ -126,20 +126,20 @@ Die meisten Anwender werden vermutlich auf den Einsatz der REST API verzichten, 
 **Wichtig:** Du musst beim Thema Konsumieren den für dich praktikabelsten Weg selbst entdecken. Ich habe für mich entdeckt, dass ich die Arbeit einfach gern mit einem Gerät in der Hand erledige, welches ich eh andauernd in der Hand halte: iPhone. Vielleicht ist das ja auch für dich was?
 {:  .notice--warning}
 
-### Klassifizieren
+## Klassifizieren
 
 Nachdem dein Dokument konsumiert wurde, findest du es im Posteingang wieder. Hierbei handelt es sich nicht um einen klassischen Ordner, sondern eine dieser *virtuellen Schubladen*, von denen ich [hier](/paperless/klassifizierung/#tagging) berichtet hatte. Damit das funktioniert, musst du einen Tag lediglich als *Posteingangs-Tag* konfigurieren. Nun kannst du das Dokument klassifizieren bzw. dir die Ergebnisse der automatischen Klassifizierung ansehen.
 
 [![Bild: Klassifizierung von Dokumenten](/assets/images/paperless/03-classification.png)](/assets/images/paperless/03-classification.png)
 
-#### Ein erstes Ergebnis
+### Ein erstes Ergebnis
 
 Bereits ohne große Konfiguration meiner Entwickler-Installation und mit einem Test-Dokument, welches wirklich kaum verwertbares Material liefert, hat der *Document Consumer* diverse Informationen extrahieren können. Aus dem Email-Header hat er z.B. das korrekte Datum ausgelesen, der <u>Dateiname des konsumierten Dokuments</u> wurde als Titel hinterlegt und der *Posteingangs-Tag* wurde angeheftet.
 
 **Info:** Ich habe <u>Dateiname des konsumierten Dokuments</u> im vorherigen Absatz absichtlich unterstrichen, da wir an dieser Stelle beachten müssen, dass ich diese Email nicht per Emailkonto-Abruf konsumieren lassen habe. Ich habe die Email in der Druckansicht geöffnet, ein PDF erzeugt und in den *Consumption Ordner* geworfen. Deshalb wurde der Dateiname als Titel des Dokuments gewählt, nicht der Email-Betreff.
 {:  .notice--info}
 
-#### Auto-Klassifizierung verbessern
+### Auto-Klassifizierung verbessern
 
 Natürlich willst du nicht bei jedem Dokument die komplette Klassifizierung selbst vornehmen müssen. Wie auf der [vorherigen Seite](https://tbsch.de/paperless/klassifizierung/#erkennungs-algorithmen) erläutert, hat jeder Korrespondent, Dokumenttyp, Tag und Speicherpfad die Option, Erkennungs-Algorithmen zu verwenden. Bei besonders vielen Dokumenten, die auf ein Zuweisungsmuster matchen werden, empfiehlt sich die **Auto-Erkennung**.
 
@@ -152,7 +152,7 @@ Nachdem ich das Dokument nun gelöscht und nochmal konsumieren lassen habe, sieh
 
 [![Bild: Klassifizierung von Dokumenten](/assets/images/paperless/04-auto-classification.png)](/assets/images/paperless/04-auto-classification.png)
 
-#### Schlussfolgerung
+### Schlussfolgerung
 
 Die kontinuierliche Verbesserung der Auto-Klassifizierung sollte ein fester Bestandteil deiner regelmäßigen Arbeit mit *paperless-ngx* werden. Wenn konsumierte Dokumente nicht automtatisch so klassifiziert werden, wie du dir das vorstellst, lohnt sich auf jeden Fall ein Blick in die Einstellungen der Zuweisungsmuster.
 
