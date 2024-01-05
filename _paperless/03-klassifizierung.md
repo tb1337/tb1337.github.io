@@ -147,8 +147,42 @@ Ich nutze zwar die physischen Dateiordner nicht, Speicherpfade stellen für mich
 
 ## Erkennungs-Algorithmen
 
-Die Klassifizierung ist der Prozess, bei dem man Dokumenten jeweils Korrespondenten, Dokumenttyp, Tags und ggf. einen Speicherpfad zuweist. Das muss man glücklicherweise nicht jedes Mal komplett per Hand machen, *paperless-ngx* wird mit einigen Erkennungsalgorithmen ausgeliefert. Darüber kannst du [hier](https://docs.paperless-ngx.com/advanced_usage/#matching) mehr lesen. Falls die automatische Erkennung nicht zum gewünschten Ergebnis führt, kann man natürlich selbst den korrekten Wert einstellen. Im Falle der Auto-Erkennung lernt *paperless-ngx* dann von deiner Entscheidung und macht es mit ein bisschen Glück direkt beim nächsten Mal richtig.
+Die Klassifizierung ist der Prozess, bei dem man Dokumenten jeweils Korrespondenten, Dokumenttyp, Tags und ggf. einen Speicherpfad zuweist. Das muss man glücklicherweise nicht jedes Mal komplett per Hand machen, *paperless-ngx* wird mit einigen Erkennungs-Algorithmen ausgeliefert. Darüber kannst du [hier](https://docs.paperless-ngx.com/advanced_usage/#matching) mehr lesen. Falls die automatische Erkennung nicht zum gewünschten Ergebnis führt, kann man natürlich selbst den korrekten Wert einstellen. Im Falle der Auto-Erkennung lernt *paperless-ngx* dann von deiner Entscheidung und macht es mit ein bisschen Glück direkt beim nächsten Mal richtig.
 
 [![Bild: Erkennungs-Algorithmen](/assets/images/paperless/03-matching-algorithms.png)](/assets/images/paperless/03-matching-algorithms.png)
 
-Ich nutze die **Auto-Erkennung**, wann immer ich bei einem Klassifizierungsmerkmal genügend Dokumente erwarte; ein Model muss schließlich mit genug Daten trainiert werden. Das kann man auf dem Bild übrigens bei *Rechnungen* erkennen.
+### Keine
+
+Die Verwendung von Erkennungs-Algorithmen wird deaktiviert.
+
+### Irgendein Wort, Alle
+
+Der Inhalt eines Dokuments wird nach den Wörtern im Zuweisungsmuster durchsucht. Legst du das Zuweisungsmuster auf `Rechnung` fest, werden alle Dokumente entsprechend klassifiziert, wenn sie das Wort <u>Rechnung</u> enthalten.
+
+Beim Zuweisungsmuster `Rechnung Baumarkt Köln` trifft der Erkennungs-Algorithmus **Irgendein Wort**, sobald eines der drei Wörter im Dokument vorkommt. **Alle** trifft nur dann, wenn alle Wörter erkannt werden konnten. Du hast richtig erkannt: mehrere Wörter werden einfach durch ein Leerzeichen voneinander getrennt.
+
+Es ist aber auch möglich, nach Wörtern mit enthaltenen Leerzeichen zu suchen. Das Prinzip ist fast dasselbe wie mit einzelnen Wörtern: `Rechnung "Baumarkt Köln"`. **Irgendein Wort** trifft nur, wenn die Wörter <u>Rechnung</u> oder (Achtung!) <u>Baumarkt Köln</u> im Dokument vorkommen. Du kennst das von gängigen Suchmaschinen, denn dort ist es genauso. **Alle** trifft wieder nur, wenn beide Wörter vorkommen.
+
+Die Reihenfolge der Wörter im Dokument spielt übrigens keine Rolle, wichtig ist nur, <u>dass</u> sie vorkommen.
+
+### Exakt
+
+Dieser Erkennungs-Algorithmus verhält sich änhlich wie **Irgendein Wort** und **Alle**, nur dass hier nicht im Kontext von Wörtern, sondern Zeichenketten gesucht wird.
+
+Das Zuweisungsmuster `Rechnung Baumarkt Köln` setzt also dann voraus, dass im Dokument auch tatsächlich <u>Rechnung Baumarkt Köln</u> am Stück ausgeschrieben wurde, damit **Exakt** treffen kann.
+
+### Regulärer Ausdruck (Regex)
+
+Liebhaber von regulären Ausdrücken werden auf ihre Kosten kommen, auch ich bin ein großer Freund davon. Aufgrund der Komplexität von Regex empfehle ich die Verwendung allerdings nur, wenn du wirklich weißt, was du da tust. Es gibt leider extrem beschränkte *Debugging Funktionen* dafür in *Paperless-ngx*, neben dem Logfile gibt es nämlich keine. Im schlimmsten Fall bekommst du niemals mit, dass dein Zuweisungsmuster also gar nicht funktioniert.
+
+Möchtest du Regex besser kennenlernen, empfiehlt sich die offizielle [Python Dokumentation](https://docs.python.org/3/library/re.html).
+
+### Ungenau (Fuzzy)
+
+Ich bin mir nicht sicher, was ich hierüber sagen soll. *Fuzzy Match* war bislang niemals die Lösung einer meiner Use-Cases, aber vielleicht underrate ich den Erkennungs-Algorithmus ja auch einfach bodenlos. Ich werde mir vornehmen, mehr damit zu arbeiten und zu sehen, ob und wie er lebensverändernd sein könnte.
+
+### Auto
+
+*Paperless-ngx* erlernt die Zuweisung mit der Zeit automatisch. Ich nutze die **Auto-Erkennung**, wann immer ich bei einem Klassifizierungsmerkmal genügend Dokumente erwarte; ein Model muss schließlich mit genug Daten trainiert werden.
+
+Die automatische Zuweisung funktionierte bereits mit der Vorgänger-Software recht zuverlässig und ich bin sehr zufrieden damit.
