@@ -141,19 +141,19 @@ Bereits ohne große Konfiguration meiner Entwickler-Installation und mit einem T
 
 ### Auto-Klassifizierung verbessern
 
-Natürlich willst du nicht bei jedem Dokument die komplette Klassifizierung selbst vornehmen müssen. Wie auf der [vorherigen Seite](https://tbsch.de/paperless/klassifizierung/#erkennungs-algorithmen) erläutert, hat jeder Korrespondent, Dokumenttyp, Tag und Speicherpfad die Option, Erkennungs-Algorithmen zu verwenden. Bei besonders vielen Dokumenten, die auf ein Zuweisungsmuster matchen werden, empfiehlt sich die **Auto-Erkennung**.
+Natürlich willst du nicht bei jedem Dokument die komplette Klassifizierung selbst vornehmen müssen. Wie auf der [vorherigen Seite](https://tbsch.de/paperless/klassifizierung/#erkennungs-algorithmen) erläutert, hat jeder Korrespondent, Dokumenttyp, Tag und Speicherpfad die Option, Erkennungs-Algorithmen zu verwenden.
 
 Ich habe beispielhaft zwei Zuweisungsmuster konfiguriert:
 
 1. einen Korrespondenten erstellt, der auf die Absenderadresse matcht
 2. der Dokumenttyp *Rechnung* matcht auf das Wort *Rechnung* im Text
 
-Nachdem ich das Dokument nun gelöscht und nochmal konsumieren lassen habe, sieht das Ergebnis bereits so aus:
+Nachdem ich das Test-Dokument nun aus *Paperless-ngx* gelöscht und nochmal konsumieren lassen habe, sieht das Ergebnis bereits so aus:
 
 [![Bild: Klassifizierung von Dokumenten](/assets/images/paperless/04-auto-classification.png)](/assets/images/paperless/04-auto-classification.png)
 
 ### Schlussfolgerung
 
-Die kontinuierliche Verbesserung der Auto-Klassifizierung sollte ein fester Bestandteil deiner regelmäßigen Arbeit mit *paperless-ngx* werden. Wenn konsumierte Dokumente nicht automtatisch so klassifiziert werden, wie du dir das vorstellst, lohnt sich auf jeden Fall ein Blick in die Einstellungen der Zuweisungsmuster.
+Die kontinuierliche Verbesserung der Auto-Klassifizierung sollte ein fester Bestandteil deiner regelmäßigen Arbeit mit *paperless-ngx* werden. Wenn konsumierte Dokumente nicht automtatisch so klassifiziert werden, wie du dir das vorstellst, lohnt sich auf jeden Fall ein Blick in die Einstellungen der Zuweisungsmuster. Dieser Prozess ammortisiert sich auf der Zeitachse, da du weniger Zeit in die Verbesserung deiner Auto-Klassifizierung stecken wirst, als in die manuelle Klassifizierung oder Korrektur falscher Ergebnisse. Und denk daran: immer da, wo manuell gearbeitet wird, entstehen auch Fehler :sunglasses:.
 
 Bereits beim Anlegen neuer Korrespondenten, Dokumenttypen, Tags und Speicherpfade empfiehlt es sich außerdem, sich bereits Gedanken über die Auto-Klassifizierung zu machen.
