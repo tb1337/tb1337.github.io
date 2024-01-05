@@ -130,9 +130,30 @@ Die meisten Anwender werden vermutlich auf den Einsatz der REST API verzichten, 
 
 Nachdem dein Dokument konsumiert wurde, findest du es im Posteingang wieder. Hierbei handelt es sich nicht um einen klassischen Ordner, sondern eine dieser *virtuellen Schubladen*, von denen ich [hier](/paperless/klassifizierung/#tagging) berichtet hatte. Damit das funktioniert, musst du einen Tag lediglich als *Posteingangs-Tag* konfigurieren. Nun kannst du das Dokument klassifizieren bzw. dir die Ergebnisse der automatischen Klassifizierung ansehen.
 
-![Bild: Klassifizierung von Dokumenten](/assets/images/paperless/03-classification.png)
+[![Bild: Klassifizierung von Dokumenten](/assets/images/paperless/03-classification.png)](/assets/images/paperless/03-classification.png)
+
+#### Ein erstes Ergebnis
 
 Bereits ohne große Konfiguration meiner Entwickler-Installation und mit einem Test-Dokument, welches wirklich kaum verwertbares Material liefert, hat der *Document Consumer* diverse Informationen extrahieren können. Aus dem Email-Header hat er z.B. das korrekte Datum ausgelesen, der <u>Dateiname des konsumierten Dokuments</u> wurde als Titel hinterlegt und der *Posteingangs-Tag* wurde angeheftet.
 
 **Info:** Ich habe <u>Dateiname des konsumierten Dokuments</u> im vorherigen Absatz absichtlich unterstrichen, da wir an dieser Stelle beachten müssen, dass ich diese Email nicht per Emailkonto-Abruf konsumieren lassen habe. Ich habe die Email in der Druckansicht geöffnet, ein PDF erzeugt und in den *Consumption Ordner* geworfen. Deshalb wurde der Dateiname als Titel des Dokuments gewählt, nicht der Email-Betreff.
 {:  .notice--info}
+
+#### Auto-Klassifizierung verbessern
+
+Natürlich willst du nicht bei jedem Dokument die komplette Klassifizierung selbst vornehmen müssen. Wie auf der [vorherigen Seite](https://tbsch.de/paperless/klassifizierung/#erkennungs-algorithmen) erläutert, hat jeder Korrespondent, Dokumenttyp, Tag und Speicherpfad die Option, Erkennungs-Algorithmen zu verwenden. Bei besonders vielen Dokumenten, die auf ein Zuweisungsmuster matchen werden, empfiehlt sich die **Auto-Erkennung**.
+
+Ich habe beispielhaft zwei Zuweisungsmuster konfiguriert:
+
+1. einen Korrespondenten erstellt, der auf die Absenderadresse matcht
+2. der Dokumenttyp *Rechnung* matcht auf das Wort *Rechnung* im Text
+
+Nachdem ich das Dokument nun gelöscht und nochmal konsumieren lassen habe, sieht das Ergebnis bereits so aus:
+
+[![Bild: Klassifizierung von Dokumenten](/assets/images/paperless/04-auto-classification.png)](/assets/images/paperless/04-auto-classification.png)
+
+#### Schlussfolgerung
+
+Die kontinuierliche Verbesserung der Auto-Klassifizierung sollte ein fester Bestandteil deiner regelmäßigen Arbeit mit *paperless-ngx* werden. Wenn konsumierte Dokumente nicht automtatisch so klassifiziert werden, wie du dir das vorstellst, lohnt sich auf jeden Fall ein Blick in die Einstellungen der Zuweisungsmuster.
+
+Bereits beim Anlegen neuer Korrespondenten, Dokumenttypen, Tags und Speicherpfade empfiehlt es sich außerdem, sich bereits Gedanken über die Auto-Klassifizierung zu machen.
