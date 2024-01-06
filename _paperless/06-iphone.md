@@ -41,11 +41,11 @@ Kommen wir zurück zu unserem Papierkram. Eine mögliche Barriere war in meinem 
 
 ### Digitales Handwerk
 
-Natürlich hat ein iPhone eine ausgefeilte Scanner-Funktion direkt an Bord, aber [Genius Scan](https://tbsch.de/paperless/workflow/#scannen) ist einfach besser. Ich habe absichtlich ein altes Firmenlogo auf dem Papier sichtbar gelassen, da es das Unternehmen eh nicht mehr gibt - auch hier siehst du den qualitativen Unterschied extrem deutlich. Beide Aufnahmen entstanden im Schwarzweiß-Modus beim Scannen.
+Natürlich hat ein iPhone eine ausgefeilte Scanner-Funktion direkt an Bord, aber [Genius Scan](https://tbsch.de/paperless/workflow/#scannen) ist einfach besser. Ich habe absichtlich ein altes Firmenlogo auf dem Papier sichtbar gelassen, da es das Unternehmen eh nicht mehr gibt - auch hier siehst du den qualitativen Unterschied extrem deutlich. Achte doch mal genau auf das Firmenlogo: auf dem zweiten Bild ist der Schriftzug annähernd kerzengerade, obwohl ich das Blatt absichtlich zerknickt habe. Beide Aufnahmen entstanden im Schwarzweiß-Modus beim Scannen.
 
 {% include gallery id="scanned_gallery" layout="half" caption="Genius Scan bereitet das Ergebnis sehr detailliert auf." %}
 
-**Info**: Über Geschmackssinn lässt sich nicht streiten. Mir gefällt das zweite Ergebnis besser, da *Genius Scan* vielfältige Methoden zur Aufbereitung des Scan-Ergebnisses einsetzt. Dicke schwarze Balken am Rand verschwinden, Schrift und Logo sind klar und es führt Begradigungen in hohem Maße aus. So lässt sich nur noch erahnen, dass ich das Blatt absichtlich zerknickt habe.
+**Info**: Über Geschmackssinn lässt sich nicht streiten. Mir gefällt das zweite Ergebnis besser, da *Genius Scan* vielfältige Methoden zur Aufbereitung des Scan-Ergebnisses einsetzt. Dicke schwarze Balken am Rand verschwinden, Schrift und Logo sind klar und es führt Begradigungen in hohem Maße aus.
 {:  .notice--info}
 
 ## Dokumente teilen
