@@ -28,7 +28,7 @@ Wir haben annähernd alle ein Smartphone in der Tasche und ich persönlich habe 
 
 Überleg mal. Du hast einen Computer in der Tasche, der mit einigen Laptops konkurrieren kann. Er hat sämtliche Verbindungsmöglichkeiten an Bord, eine Kamera, Sensorik und kann, mit den richtigen Apps ausgestattet, richtig viel Arbeit richtig schnell erledigen. Das ist ein Schweizer Taschenmesser ohne Schneidwerkzeug, aber vielleicht sind Smartphones in Zukunft ja mit einem schnittfähigen Laser ausgestattet. Wenn ich es mir recht überlege: nein, lieber nicht :grin:.
 
-Alle Pflichten des Lebens haben eine Gemeinsamkeit, da spielt es auch gar keine Rolle, ob es der Papierkram oder regelmäßiges Sporttreiben ist: du machst keine Freudensprünge, wenn du sie erledigen *musst*. Ich bin ein Mensch, der gern alle äußere Umstände abwägt, die mich davon abhalten könnten, etwas zu tun - um sie dann als Ausreden zu nutzen. 
+Alle Pflichten des Lebens haben eine Gemeinsamkeit, da spielt es auch gar keine Rolle, ob es der Papierkram oder regelmäßiges Sporttreiben ist: du machst keine Freudensprünge, wenn du sie erledigen *musst*. Ich bin ein Mensch, der gern alle äußeren Umstände abwägt, die mich davon abhalten könnten, etwas zu tun - um sie dann als Ausreden zu nutzen. 
 
 > Heute ist Regen angesagt?
 > Oh, wie schade, dann kann ich wohl keine Jogging-Tour machen.
