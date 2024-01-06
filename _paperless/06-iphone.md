@@ -62,7 +62,7 @@ Eine zusätzliche Herausforderung war, dass ich in meiner *paperless-ngx* Instal
 
 ### Shortcuts
 
-Wie schön wäre es, wenn ich ein Dokument direkt mit *paperless-ngx* teilen könnte, so wie wir das bei Fotos von Messengern gewöhnt sind? Und wie geil wäre es, wenn ich gleichzeitig noch festlegen könnte, für welche Person das Dokument bestimmt ist? Genau hier kommen Shortcuts auf Apple Geräten ins Spiel. Die kann man nämlich komplett an seine Bedürfnisse anpassen.
+Wie schön wäre es, wenn ich ein Dokument direkt mit *paperless-ngx* teilen könnte, so wie wir das von Messengern beim Bildsharing gewöhnt sind? Und wie geil wäre es, wenn ich gleichzeitig noch festlegen könnte, für welche Person das Dokument bestimmt ist? Genau hier kommen Shortcuts auf Apple Geräten ins Spiel. Die kann man nämlich komplett an seine Bedürfnisse anpassen.
 
 **Kurzerhand habe ich einen Shortcut mit diesem Flow erstellt:**
 
