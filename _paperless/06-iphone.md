@@ -35,9 +35,9 @@ Alle Pflichten des Lebens haben eine Gemeinsamkeit, da spielt es auch gar keine 
 
 Kommt dir bekannt vor? :laughing:
 
-Kommen wir zurück zu unserem Papierkram. Eine mögliche Barriere war in meinem Fall die Tatsache, dass ich eine Abneigung gegenüber Drucker/Multifunktionsgeräten in meinem Haushalt habe. Die Vorstellung mit meinem Drucker andauernd irgendwelche Post einscannen zu müssen, hat mich genervt. Ich finde private Drucker und insbesondere ihre Software völlig unintuitiv, veraltet und verseucht mit Bloatware. Da spielt es auch keine Rolle, ob Canon, HP, Epson oder sonstwas drauf steht. Es wäre doch schön, wenn mein iPhone bloß vernünftig scannen könnte... wie war das mit dem Schweizer Taschenmesser? [Genius Scan](https://tbsch.de/paperless/workflow/#scannen) hat mich erleuchtet.
+Kommen wir zurück zu unserem Papierkram. Eine mögliche Barriere war in meinem Fall die Tatsache, dass ich eine Abneigung gegenüber Drucker/Multifunktionsgeräte in meinem Haushalt habe. Die Vorstellung mit meinem Drucker andauernd irgendwelche Post einscannen zu müssen, hat mich genervt. Ich finde Drucker und insbesondere ihre Software völlig unintuitiv und veraltet, obendrein gibt es Bloatware und Tracker von den Herstellern ohne Ende. Nein danke. Da spielt es auch keine Rolle, ob Canon, HP, Epson oder sonstwas drauf steht. Es wäre doch schön, wenn mein iPhone bloß vernünftig scannen könnte... wie war das mit dem Schweizer Taschenmesser?
 
-Natürlich hat ein iPhone eine ausgefeilte Scanner-Funktion direkt an Bord, aber Genius Scan ist einfach besser. Ich habe absichtlich ein altes Firmenlogo auf dem Papier sichtbar gelassen, da es das Unternehmen eh nicht mehr gibt - auch hier siehst du den qualitativen Unterschied extrem deutlich. Beide Aufnahmen entstanden im Schwarzweiß-Modus beim Scannen.
+Natürlich hat ein iPhone eine ausgefeilte Scanner-Funktion direkt an Bord, aber [Genius Scan](https://tbsch.de/paperless/workflow/#scannen) ist einfach besser. Ich habe absichtlich ein altes Firmenlogo auf dem Papier sichtbar gelassen, da es das Unternehmen eh nicht mehr gibt - auch hier siehst du den qualitativen Unterschied extrem deutlich. Beide Aufnahmen entstanden im Schwarzweiß-Modus beim Scannen.
 
 {% include gallery id="scanned_gallery" layout="half" caption="Genius Scan bereitet das Ergebnis sehr detailliert auf." %}
 
