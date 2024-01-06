@@ -75,5 +75,5 @@ Diesen Shortcut habe ich dann noch im Share Sheet als Favoriten hinterlegt, soda
 
 [![Bild: Dokument teilen mit dem iPhone](/assets/images/paperless/04-share-iphone.png)](/assets/images/paperless/04-share-iphone.png)
 
-**Interessiert?** Ich teile den Shortcut gern mit dir. Du kannst ihn dir [hier](https://www.icloud.com/shortcuts/a3dcb7f1cdf64bc1a10338a4f23e699e) direkt bei iCloud herunterladen. Konfigurieren musst du ihn lediglich mit deiner *paperless-ngx* URL und einem Wörterbuch bestehend aus Name/API-Token Paaren: du kannst mehrere Personen mit ihren jeweiligen Tokens angeben.
+**Interessiert?** Ich teile den Shortcut gern mit dir. Du kannst ihn dir [hier](https://www.icloud.com/shortcuts/b9b6defef4cf407a9786c04e449eb67c) direkt bei iCloud herunterladen. Konfigurieren musst du ihn lediglich mit deiner *paperless-ngx* URL und einem Wörterbuch bestehend aus Name/API-Token Paaren. Du kannst mehrere Personen mit ihren jeweiligen Tokens angeben.
 {:  .notice--success} 
