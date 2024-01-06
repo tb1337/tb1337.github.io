@@ -76,3 +76,5 @@ Diesen Shortcut habe ich dann noch im Share Sheet als Favoriten hinterlegt, soda
 [![Bild: Dokument teilen mit dem iPhone](/assets/images/paperless/04-share-iphone.png)](/assets/images/paperless/04-share-iphone.png)
 
 Auch überzeugt? Am Ende dieser Seite stelle ich meine Shortcuts zur Verfügung.
+
+## Papier-Dokumente in Paperless-ngx öffnen
