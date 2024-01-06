@@ -19,7 +19,7 @@ scanned_gallery:
     title: "Ein Dokument mit Genius Scan gescannt."
 ---
 
-**Disclaimer:** Ich werde hier nur über Apple Produkte berichten. Wenn du sie nicht magst, ist das für mich völlig in Ordnung. Lies einfach nicht weiter. Woran ich nicht interessiert bin sind Hinweise, warum Apple nicht gut ist oder dass Android ja viel besser sei. Spar dir die Zeit und langweile uns beide damit einfach nicht :sunglasses:. Ich bin seit fast einem Jahrzehnt weg von Android, und das bleibt so.
+**Disclaimer:** Ich werde hier nur über Apple Produkte berichten. Wenn du sie nicht magst, ist das für mich völlig in Ordnung. Lies einfach nicht weiter. Woran ich nicht interessiert bin sind Hinweise, warum Apple nicht gut ist oder dass Android ja viel besser sei. Spar dir die Zeit und langweile uns beide damit einfach nicht. Ich bin seit fast einem Jahrzehnt weg von Android, und das bleibt so. Danke :sunglasses:.
 {:  .notice--danger}
 
 ## Das Smartphone als Werkzeug
