@@ -79,7 +79,7 @@ Das System bietet sehr charmante Suchmöglichkeiten nach Dokumenten mit ASN, und
 
 ### QR Codes erstellen
 
-In den Erläuterungen zum [Setup](/paperless/setup/) schrieb ich, dass *Marvin Gaube* einen [Artikel](https://margau.net/posts/2023-04-16-paperless-ngx-asn/) einen großartigen Artikel verfasst hat. Hier erklärt er auch, wie man sich selbst QR Codes erstellen kann.
+In den Erläuterungen zum [Setup](/paperless/setup/) schrieb ich, dass *Marvin Gaube* einen großartigen [Artikel](https://margau.net/posts/2023-04-16-paperless-ngx-asn/) verfasst hat. Hier erklärt er auch, wie man sich selbst QR Codes erstellen kann.
 
 **Eine kurze Zusammenfassung**:
 
