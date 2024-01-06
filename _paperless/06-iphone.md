@@ -50,7 +50,7 @@ Natürlich hat ein iPhone eine ausgefeilte Scanner-Funktion direkt an Bord, aber
 
 ## Dokumente teilen
 
-Nun sind wir an einem Punkt angelangt, an dem jedes Dokument digital verfügbar ist: egal ob ein Postbrief, ein Emailanhang oder App Download. Nun geht es wieder um meine persönlichen Erfahrungen, vielleicht bewertest du meine Herausforderungen ja komplett anders.
+Nun sind wir an einem Punkt angelangt, an dem jedes Dokument digital verfügbar ist: egal ob ein Postbrief, ein Emailanhang oder App Download. Nun geht es wieder ausschließlich um meine persönlichen Erfahrungen. Es ist daher möglich, dass du meine Schmerzpunkte gar nicht als solche wahrnimmst und gänzlich anderer Meinung bist. Teil sie gern mit mir :grin:!
 
 ### FTP und WebDAV
 
