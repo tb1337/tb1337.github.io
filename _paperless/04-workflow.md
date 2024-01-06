@@ -77,6 +77,16 @@ Das System bietet sehr charmante Suchmöglichkeiten nach Dokumenten mit ASN, und
 **Profi-Tipp:** Es ist nicht nur möglich, vom digitalen Abbild auf ein Original zu schließen. Die abgehefteten Dokumente beklebe ich mit einem QR Code, in den die ASN einkodiert ist. Scanne ich mit meinem iPhone diesen QR Code, öffnet sich *paperless-ngx* im Browser und zeigt mir die digitale Version des Dokuments an. Dazu später mehr.
 {:  .notice--info}
 
+### QR Codes erstellen
+
+In den Erläuterungen zum [Setup](/paperless/setup/) schrieb ich, dass *Marvin Gaube* einen [Artikel](https://margau.net/posts/2023-04-16-paperless-ngx-asn/) einen großartigen Artikel verfasst hat. Hier erklärt er auch, wie man sich selbst QR Codes erstellen kann.
+
+**Eine kurze Zusammenfassung**:
+
+* Du benötigst [L4731 Klebeetiketten](https://amzn.to/3S6TyIG) *(Amazon Partnerlink)*,
+* einen Drucker, ich nutze [Canon PIXMA MG3650S](https://amzn.to/3TOU6o4) *(Amazon Partnerlink)*,
+* die zu druckenden QR Codes im 4731 Layout. Ein paar Beispiele habe ich [hier](https://github.com/tb1337/tb1337.github.io/tree/master/assets/files/paperless) für dich vorbereitet.
+
 ## Scannen
 
 Wie über dem Schaubild am Anfang dieser Seite erwähnt, erreichen uns Dokumente mittlerweile über alle möglichen Kanäle. Ich präferiere natürlich den digitalen Weg, denn z.B. ein Email-Anhang oder App-Download ist blitzschnell an *paperless-ngx* übergeben. Hierfür musst du nicht einmal das Handy aus der Hand legen. Aus diesem Grund achte ich auch bei Vertragsabschluss mit Serviceanbietern darauf, dass diese schon selbst digital unterwegs sind. Eine monatliche Rechnung für den Internetanschluss per Post ist für mich ein absolutes Tabu. Das hat auch weniger politisch-motivierte grüne Gründe, es passt schlichtweg nicht zu meinem Lifestyle.
