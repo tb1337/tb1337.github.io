@@ -56,9 +56,9 @@ Nun sind wir an einem Punkt angelangt, an dem jedes Dokument digital verfügbar 
 
 In den Beschreibungen zum [Workflow](https://tbsch.de/paperless/workflow/#konsumieren) sagte ich, dass deine Aufgabe darin besteht, *paperless-ngx* mit Dokumenten zu füttern. Für mich war von Anfang an klar, dass ich nicht jede Datei einzeln hochladen möchte. Das soll automatisch passieren.
 
-*Genius Scan* bringt diverse automatische Exportmöglichkeiten mit, sodass eingescannte Dokumente direkt an den *Consumption-Ordner* übermittelt werden können. Eine Zeit lang löste ich das über FTP und später WebDAV. Ich machte mich allerdings von den Verbindungsmöglichkeiten von *Genius Scan* abhängig und ertappte mich eines Tages dabei, wie ich ankommende Emails über das Share Sheet mit *Genius Scan* teilte, damit es das Dokument an den *Consumption-Ordner* überstellte. Das war mir nicht smart genug, weil ich nicht nur einen vermeidbaren Umweg über *Genius Scan* gehen, sondern auch einen FTP- bzw. WebDAV-Server betreiben musste.
+*Genius Scan* bringt diverse automatische Exportmöglichkeiten mit, sodass eingescannte Dokumente direkt an den *Consumption-Ordner* übermittelt werden können. Eine Zeit lang löste ich das über FTP und später WebDAV. Ich machte mich allerdings von den Verbindungsmöglichkeiten von *Genius Scan* abhängig und ertappte mich eines Tages dabei, wie ich ankommende Emails über das Share Sheet mit *Genius Scan* teilte, damit die App das Dokument an den *Consumption-Ordner* überstellen konnte. Das war mir nicht smart genug, weil ich nicht nur einen vermeidbaren Umweg über *Genius Scan* gehen, sondern auch einen FTP- bzw. WebDAV-Server betreiben musste.
 
-Eine weitere Herausforderung war, dass ich in meiner *paperless-ngx* Installation die Dokumente von zwei Personen verwalte. Ich brauchte also zusätzlich Mandantenfähigkeit - damals gab es **Verarbeitungsvorlagen** noch nicht.
+Eine zusätzliche Herausforderung war, dass ich in meiner *paperless-ngx* Installation die Dokumente von zwei Personen verwalte. Ich brauchte also auch noch Mandantenfähigkeit bei der Bereitstellung - damals gab es **Verarbeitungsvorlagen** noch nicht.
 
 ### Shortcuts
 
